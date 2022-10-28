@@ -1,2 +1,2 @@
-# pplm-age-adapt-dialogue
+# Controllable Text Generation for All Ages: Evaluating a Plug-and-Play Approach to Age-Adapted Dialogue
 This repository will contain the code used for the paper, Controllable Text Generation for All Ages:  Evaluating a Plug-and-Play Approach to Age-Adapted Dialogue
