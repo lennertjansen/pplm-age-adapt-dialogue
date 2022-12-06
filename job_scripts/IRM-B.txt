@@ -1,0 +1,508 @@
+# Experiment set 0 for colour9
+# env0,1, no-pt
+# ERM, but this time real, no-pt
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 -td 0 1 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 50000 --batch_size 35
+# IRM but ERM
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 -td 0 1 --irmroicls 2000 8000 0 0 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+# IRM, only roicls (REx 26) - made a mistake, this is all zero
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 -td 0 1 --irmroicls 2000 8000 0 1000 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+# And a bit weaker
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 -td 0 1 --irmroicls 2000 8000 0 500 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+# IRM, similar to REx 105
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 -td 0 1 --irmroicls 2000 8000 0 0 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 10 1000 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+# And a bit weaker
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 -td 0 1 --irmroicls 2000 8000 0 0 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 10 500 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+# IRM, on all heads
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 -td 0 1 --irmroicls 2000 8000 0 1000 0 --irmroibbox 2000 8000 0 100 0 --irmrpncls 0 2000 10 1000 0 --irmrpnbbox 0 2000 10 1000 0  --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+# and bit weaker
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 -td 0 1 --irmroicls 2000 8000 0 500 0 --irmroibbox 2000 8000 0 50 0 --irmrpncls 0 2000 10 500 0 --irmrpnbbox 0 2000 10 500 0  --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+# env0,1,2, no-pt
+# ERM, but this time real, no-pt
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 50000 --batch_size 35
+# IRM, only roicls (REx 26)
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 2000 8000 0 1000 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+# And a bit weaker
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 2000 8000 0 500 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+# IRM, similar to REx 105
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 2000 8000 0 0 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 10 1000 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+# And a bit weaker
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 2000 8000 0 0 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 10 500 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+# IRM, on all heads
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 2000 8000 0 1000 0 --irmroibbox 2000 8000 0 100 0 --irmrpncls 0 2000 10 1000 0 --irmrpnbbox 0 2000 10 1000 0  --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+# and bit weaker
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 2000 8000 0 500 0 --irmroibbox 2000 8000 0 50 0 --irmrpncls 0 2000 10 500 0 --irmrpnbbox 0 2000 10 500 0  --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+# Test with VREx version
+#-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 -td 0 1 --vrexroicls 2000 8000 0 0 --vrexroibbox 2000 8000 0 0 --vrexrpncls 0 2000 0 0 --vrexrpnbbox 0 2000 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+# INtroduce roicls in a later stage, based on 12 and 14
+# IRM, similar to REx 105 but with roicls at late stage
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 -td 0 1 --irmroicls 5000 8000 0 500 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 10 1000 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+# And a bit weaker
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 -td 0 1 --irmroicls 2000 8000 0 500 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 10 500 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+# Only roicls but weaker (not redone after roi cls/bbox mixup)
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 -td 0 1 --irmroicls 2000 8000 0 200 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+# Only roicls but even weaker (not redone after roi cls/bbox mixup)
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 -td 0 1 --irmroicls 2000 8000 0 50 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+# Only roicls, but shorter annealing and starting at value (not redone after roi cls/bbox mixup)
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 -td 0 1 --irmroicls 3000 4000 10 200 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+# With version 1 of IRM_S
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 -td 0 1 --irmroicls 3000 4000 0 0 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000 --irmmdmm 1.0
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 -td 0 1 --irmroicls 3000 6000 0 100 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000 --irmvar
+# other settings
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 -td 0 1 --irmroicls 3000 4000 0 0 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000 --irmmdmm 0.1
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 -td 0 1 --irmroicls 3000 4000 0 0 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000 --irmmdmm 0.01
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 -td 0 1 --irmroicls 3000 4000 0 0 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000 --irmmdmm 0.001
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 -td 0 1 --irmroicls 3000 6000 0 1000 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000 --irmvar
+# 6/04 Now with later switch (changed in code)
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 -td 0 1 --irmroicls 3000 4000 0 0 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000 --irmmdmm 0.1
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 -td 0 1 --irmroicls 3000 4000 0 0 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000 --irmmdmm 0.01
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 -td 0 1 --irmroicls 3000 4000 0 0 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000 --irmmdmm 0.001
+# And combined irmvar and irmmdmm
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 -td 0 1 --irmroicls 3000 6000 0 0 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000 --irmvar --irmmdmm 0.1
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 -td 0 1 --irmroicls 3000 6000 0 0 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000 --irmvar --irmmdmm 0.01
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 -td 0 1 --irmroicls 3000 6000 0 0 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000 --irmvar --irmmdmm 1.
+
+# 8/04: Start base exps
+# Default: env0,1,2, batch size 35
+# Try per head
+# roibbox
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 2000 8000 0 0 0 --irmroibbox 2000 8000 0 500 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 2000 8000 0 0 0 --irmroibbox 2000 8000 0 1000 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+# rpnbbox
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 2000 8000 0 0 0 --irmroibbox 2000 8000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 10 1000 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 2000 8000 0 0 0 --irmroibbox 2000 8000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 2000 8000 0 1000 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+# roicls and rpncls
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 3000 8000 0 500 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 10 1000 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+# Best ones (25,27) with split batch
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 2000 8000 0 500 1 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 2000 8000 0 0 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 10 1000 1 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+
+# Range of training domains. Based on 25 and 27
+# Env0,2
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env2 -td 0 2 --irmroicls 2000 8000 0 500 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env2 -td 0 2 --irmroicls 2000 8000 0 0 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 10 1000 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env2 -td 0 2 --irmroicls 2000 8000 0 500 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 10 1000 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+# Env0,1,2,3
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 env3 -td 0 1 2 3 --irmroicls 2000 8000 0 500 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 env3 -td 0 1 2 3 --irmroicls 2000 8000 0 0 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 10 1000 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 env3 -td 0 1 2 3 --irmroicls 2000 8000 0 500 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 10 1000 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+# Env0,3
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env3 -td 0 3 --irmroicls 2000 8000 0 500 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env3 -td 0 3 --irmroicls 2000 8000 0 0 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 10 1000 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env3 -td 0 3 --irmroicls 2000 8000 0 500 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 10 1000 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+# Env0,1,2,3,4
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 env3 env4 -td 0 1 2 3 4 --irmroicls 2000 8000 0 500 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 env3 env4 -td 0 1 2 3 4 --irmroicls 2000 8000 0 0 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 10 1000 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 env3 env4 -td 0 1 2 3 4 --irmroicls 2000 8000 0 500 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 10 1000 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+
+# Forgot ERM for comparison:
+# Env0,2
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env2 -td 0 2 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+# Env0,1,2,3
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 env3 -td 0 1 2 3 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+# Env0,3
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env3 -td 0 3 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+# Env0,1,2,3,4
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 env3 env4 -td 0 1 2 3 4 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+
+# 13/04 Basic experiments with env0,1
+# ERM
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 -td 0 1 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+# IRM
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 -td 0 1 --irmroicls 2000 8000 0 500 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 -td 0 1 --irmroicls 2000 8000 0 0 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 10 1000 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 -td 0 1 --irmroicls 2000 8000 0 500 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 10 1000 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+
+#### colour6, same as above
+# Try per head
+# roicls 
+-sdg --exp_name colour6-A --datapath colour6 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 2000 8000 0 500 0 --irmroibbox 2000 8000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+# roibbox
+-sdg --exp_name colour6-A --datapath colour6 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 2000 8000 0 0 0 --irmroibbox 2000 8000 0 500 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+# rpnbbox (whoops same as roibbox)
+-sdg --exp_name colour6-A --datapath colour6 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 2000 8000 0 0 0 --irmroibbox 2000 8000 0 500 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+# rpncls
+-sdg --exp_name colour6-A --datapath colour6 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 2000 8000 0 0 0 --irmroibbox 2000 8000 0 0 0 --irmrpncls 0 2000 10 1000 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+# roicls and rpncls
+-sdg --exp_name colour6-A --datapath colour6 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 3000 8000 0 500 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 10 1000 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+# ERM
+-sdg --exp_name colour6-A --datapath colour6 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+# Range of training domains. Based on 25 and 27
+# Env0,2
+-sdg --exp_name colour6-A --datapath colour6 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env2 -td 0 2 --irmroicls 2000 8000 0 500 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+-sdg --exp_name colour6-A --datapath colour6 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env2 -td 0 2 --irmroicls 2000 8000 0 0 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 10 1000 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+-sdg --exp_name colour6-A --datapath colour6 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env2 -td 0 2 --irmroicls 2000 8000 0 500 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 10 1000 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+# Env0,1,2,3
+-sdg --exp_name colour6-A --datapath colour6 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 env3 -td 0 1 2 3 --irmroicls 2000 8000 0 500 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+-sdg --exp_name colour6-A --datapath colour6 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 env3 -td 0 1 2 3 --irmroicls 2000 8000 0 0 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 10 1000 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+-sdg --exp_name colour6-A --datapath colour6 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 env3 -td 0 1 2 3 --irmroicls 2000 8000 0 500 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 10 1000 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+# Env0,3
+-sdg --exp_name colour6-A --datapath colour6 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env3 -td 0 3 --irmroicls 2000 8000 0 500 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+-sdg --exp_name colour6-A --datapath colour6 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env3 -td 0 3 --irmroicls 2000 8000 0 0 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 10 1000 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+-sdg --exp_name colour6-A --datapath colour6 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env3 -td 0 3 --irmroicls 2000 8000 0 500 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 10 1000 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+# Env0,1,2,3,4
+-sdg --exp_name colour6-A --datapath colour6 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 env3 env4 -td 0 1 2 3 4 --irmroicls 2000 8000 0 500 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+-sdg --exp_name colour6-A --datapath colour6 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 env3 env4 -td 0 1 2 3 4 --irmroicls 2000 8000 0 0 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 10 1000 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+-sdg --exp_name colour6-A --datapath colour6 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 env3 env4 -td 0 1 2 3 4 --irmroicls 2000 8000 0 500 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 10 1000 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+# ERM for comparison
+# Env0,2
+-sdg --exp_name colour6-A --datapath colour6 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env2 -td 0 2 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+# Env0,1,2,3
+-sdg --exp_name colour6-A --datapath colour6 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 env3 -td 0 1 2 3 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+# Env0,3
+-sdg --exp_name colour6-A --datapath colour6 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env3 -td 0 3 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+# Env0,1,2,3,4
+-sdg --exp_name colour6-A --datapath colour6 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 env3 env4 -td 0 1 2 3 4 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+# and with env0,1
+# ERM
+-sdg --exp_name colour6-A --datapath colour6 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 -td 0 1 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+# IRM
+-sdg --exp_name colour6-A --datapath colour6 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 -td 0 1 --irmroicls 2000 8000 0 500 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+-sdg --exp_name colour6-A --datapath colour6 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 -td 0 1 --irmroicls 2000 8000 0 0 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 10 1000 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+-sdg --exp_name colour6-A --datapath colour6 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 -td 0 1 --irmroicls 2000 8000 0 500 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 10 1000 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+
+#### colour8 (shift to next)
+# Try per head
+# roicls 
+-sdg --exp_name colour8-A --datapath colour8 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 2000 8000 0 500 0 --irmroibbox 2000 8000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+# roibbox
+-sdg --exp_name colour8-A --datapath colour8 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 2000 8000 0 0 0 --irmroibbox 2000 8000 0 500 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+# rpncls (whoops also roibbox)
+-sdg --exp_name colour8-A --datapath colour8 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 2000 8000 0 0 0 --irmroibbox 2000 8000 0 500 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+# rpnbbox
+-sdg --exp_name colour8-A --datapath colour8 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 2000 8000 0 0 0 --irmroibbox 2000 8000 0 0 0 --irmrpncls 0 2000 10 1000 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+# roicls and rpncls
+-sdg --exp_name colour8-A --datapath colour8 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 3000 8000 0 500 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 10 1000 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+# ERM
+-sdg --exp_name colour8-A --datapath colour8 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+#
+# Range of training domains. Based on 25 and 27
+# Env0,2
+-sdg --exp_name colour8-A --datapath colour8 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env2 -td 0 2 --irmroicls 2000 8000 0 500 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+-sdg --exp_name colour8-A --datapath colour8 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env2 -td 0 2 --irmroicls 2000 8000 0 0 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 10 1000 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+-sdg --exp_name colour8-A --datapath colour8 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env2 -td 0 2 --irmroicls 2000 8000 0 500 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 10 1000 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+# Env0,1,2,3
+-sdg --exp_name colour8-A --datapath colour8 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 env3 -td 0 1 2 3 --irmroicls 2000 8000 0 500 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+-sdg --exp_name colour8-A --datapath colour8 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 env3 -td 0 1 2 3 --irmroicls 2000 8000 0 0 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 10 1000 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+-sdg --exp_name colour8-A --datapath colour8 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 env3 -td 0 1 2 3 --irmroicls 2000 8000 0 500 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 10 1000 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+# Env0,3
+-sdg --exp_name colour8-A --datapath colour8 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env3 -td 0 3 --irmroicls 2000 8000 0 500 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+-sdg --exp_name colour8-A --datapath colour8 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env3 -td 0 3 --irmroicls 2000 8000 0 0 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 10 1000 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+-sdg --exp_name colour8-A --datapath colour8 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env3 -td 0 3 --irmroicls 2000 8000 0 500 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 10 1000 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+# Env0,1,2,3,4
+-sdg --exp_name colour8-A --datapath colour8 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 env3 env4 -td 0 1 2 3 4 --irmroicls 2000 8000 0 500 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+-sdg --exp_name colour8-A --datapath colour8 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 env3 env4 -td 0 1 2 3 4 --irmroicls 2000 8000 0 0 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 10 1000 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+-sdg --exp_name colour8-A --datapath colour8 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 env3 env4 -td 0 1 2 3 4 --irmroicls 2000 8000 0 500 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 10 1000 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+# ERM for comparison
+# Env0,2
+-sdg --exp_name colour8-A --datapath colour8 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env2 -td 0 2 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+# Env0,1,2,3
+-sdg --exp_name colour8-A --datapath colour8 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 env3 -td 0 1 2 3 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+# Env0,3
+-sdg --exp_name colour8-A --datapath colour8 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env3 -td 0 3 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+# Env0,1,2,3,4
+-sdg --exp_name colour8-A --datapath colour8 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 env3 env4 -td 0 1 2 3 4 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+# and with env0,1
+# ERM
+-sdg --exp_name colour8-A --datapath colour8 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 -td 0 1 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+# IRM
+-sdg --exp_name colour8-A --datapath colour8 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 -td 0 1 --irmroicls 2000 8000 0 500 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+-sdg --exp_name colour8-A --datapath colour8 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 -td 0 1 --irmroicls 2000 8000 0 0 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 10 1000 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+-sdg --exp_name colour8-A --datapath colour8 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 -td 0 1 --irmroicls 2000 8000 0 500 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 10 1000 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+#
+#
+### colour9
+# Env0,1,2; weaker bbox and 500 with logging
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 2000 8000 0 0 0 --irmroibbox 2000 8000 0 500 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000 --log_bbox
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 2000 8000 0 0 0 --irmroibbox 2000 8000 0 50 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000 --log_bbox
+# rpnbbox
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 2000 8000 0 0 0 --irmroibbox 2000 8000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 2000 8000 0 500 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000 --log_bbox
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 2000 8000 0 0 0 --irmroibbox 2000 8000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 2000 8000 0 50 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000 --log_bbox
+# Normal with logging
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 2000 8000 0 0 0 --irmroibbox 2000 8000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000 --log_bbox
+# 15/04 Try with irmvar
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 2000 8000 0 0 0 --irmroibbox 2000 8000 0 500 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000 --log_bbox --irmvar
+# Larger batch size, same settings (roibbox)
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 2000 8000 0 0 0 --irmroibbox 2000 8000 0 500 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000 --log_bbox --batch_size 200
+# Smaller IRM strength
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 2000 8000 0 0 0 --irmroibbox 2000 8000 0 5 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000 --log_bbox
+
+# env0-3 stronger IRM (based on 85, 86)
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 env3 -td 0 1 2 3 --irmroicls 2000 8000 0 1000 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 env3 -td 0 1 2 3 --irmroicls 2000 8000 0 0 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 10 1500 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+# Env0,3 weaker, based on 89, 91
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env3 -td 0 3 --irmroicls 2000 8000 0 50 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env3 -td 0 3 --irmroicls 2000 8000 0 100 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env3 -td 0 3 --irmroicls 2000 8000 0 50 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 10 1000 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+# Env0-4, weaker, based on 93,94
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 env3 env4 -td 0 1 2 3 4 --irmroicls 2000 8000 0 50 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 env3 env4 -td 0 1 2 3 4 --irmroicls 2000 8000 0 0 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 1 100 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+
+# 16/04 apply irmvar with roicls (based on 25)
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 2000 8000 0 500 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000 --irmvar
+# Batch size experiments - On roicls (based on 25) and rpncls (based on 27)
+# batch size 2
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 2000 8000 0 500 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000 --batch_size 2
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 2000 8000 0 0 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 10 1000 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000 --batch_size 2
+# batch size 5
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 2000 8000 0 500 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000 --batch_size 5
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 2000 8000 0 0 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 10 1000 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000 --batch_size 5
+# batch size 10
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 2000 8000 0 500 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000 --batch_size 10
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 2000 8000 0 0 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 10 1000 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000 --batch_size 10
+# batch size 20
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 2000 8000 0 500 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000 --batch_size 20
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 2000 8000 0 0 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 10 1000 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000 --batch_size 20
+# batch size 50
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 2000 8000 0 500 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000 --batch_size 50
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 2000 8000 0 0 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 10 1000 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000 --batch_size 50
+# batch size 200
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 2000 8000 0 500 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000 --batch_size 200
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 2000 8000 0 0 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 10 1000 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000 --batch_size 200
+
+# 89 with split_batch
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env3 -td 0 3 --irmroicls 2000 8000 0 500 1 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+# Very strong roicls
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 2000 8000 0 5000 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+
+# 19/04 batch size ERM
+# batch size 2
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000 --batch_size 2
+# batch size 5
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000 --batch_size 5
+# batch size 10
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000 --batch_size 10
+# batch size 20
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000 --batch_size 20
+# batch size 50
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000 --batch_size 50
+# batch size 200
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000 --batch_size 200
+# Tuned params
+# batch size 2
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 8000 16000 0 500 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 20000 --batch_size 2
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 8000 16000 0 50 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 20000 --batch_size 2
+# batch size 5
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 8000 16000 0 500 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 20000 --batch_size 5
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 8000 16000 0 50 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 20000 --batch_size 5
+# batch size 10
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 6000 13000 0 500 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 20000 --batch_size 10
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 6000 13000 0 50 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 20000 --batch_size 10
+# batch size 20
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 4000 12000 0 500 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 15000 --batch_size 20
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 4000 12000 0 50 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 15000 --batch_size 20
+# batch size 200 (make run longer, like 10 hrs)
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 2000 8000 0 500 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000 --batch_size 200
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 2000 8000 0 0 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 10 1000 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000 --batch_size 200
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 2000 8000 0 2000 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000 --batch_size 200
+
+#### label flipping (colour9flip dataset, based on 25, 27)
+-sdg --exp_name colour9-A --datapath colour9flip -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+-sdg --exp_name colour9-A --datapath colour9flip -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 2000 8000 0 500 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+-sdg --exp_name colour9-A --datapath colour9flip -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 2000 8000 0 0 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 10 1000 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+
+#### bbox shift (bbox1)
+-sdg --exp_name bbox-A --datapath bbox1 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+-sdg --exp_name bbox-A --datapath bbox1 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 2000 8000 0 500 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+-sdg --exp_name bbox-A --datapath bbox1 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 2000 8000 0 0 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 10 1000 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+-sdg --exp_name bbox-A --datapath bbox1 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 2000 8000 0 0 0 --irmroibbox 2000 8000 0 500 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+-sdg --exp_name bbox-A --datapath bbox1 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 2000 8000 0 0 0 --irmroibbox 2000 8000 0 50 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+-sdg --exp_name bbox-A --datapath bbox1 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 2000 8000 0 0 0 --irmroibbox 2000 8000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 2000 8000 0 500 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+-sdg --exp_name bbox-A --datapath bbox1 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 2000 8000 0 0 0 --irmroibbox 2000 8000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 2000 8000 0 50 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+
+### colour9unbal
+# env0,1,2
+-sdg --exp_name colour9-A --datapath colour9unbal -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 2000 8000 0 500 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+-sdg --exp_name colour9-A --datapath colour9unbal -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 2000 8000 0 0 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 10 1000 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+-sdg --exp_name colour9-A --datapath colour9unbal -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+# env0,1
+-sdg --exp_name colour9-A --datapath colour9unbal -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 -td 0 1 --irmroicls 2000 8000 0 500 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+-sdg --exp_name colour9-A --datapath colour9unbal -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 -td 0 1 --irmroicls 2000 8000 0 0 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 10 500 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+-sdg --exp_name colour9-A --datapath colour9unbal -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 -td 0 1 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+# Env0,2
+-sdg --exp_name colour9-A --datapath colour9unbal -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env2 -td 0 2 --irmroicls 2000 8000 0 500 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+-sdg --exp_name colour9-A --datapath colour9unbal -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env2 -td 0 2 --irmroicls 2000 8000 0 0 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 10 1000 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+-sdg --exp_name colour9-A --datapath colour9unbal -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env2 -td 0 2 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+# Env0,1,2,3
+-sdg --exp_name colour9-A --datapath colour9unbal -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 env3 -td 0 1 2 3 --irmroicls 2000 8000 0 500 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+-sdg --exp_name colour9-A --datapath colour9unbal -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 env3 -td 0 1 2 3 --irmroicls 2000 8000 0 0 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 10 1000 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+-sdg --exp_name colour9-A --datapath colour9unbal -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 env3 -td 0 1 2 3 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+# Env0,3
+-sdg --exp_name colour9-A --datapath colour9unbal -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env3 -td 0 3 --irmroicls 2000 8000 0 500 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+-sdg --exp_name colour9-A --datapath colour9unbal -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env3 -td 0 3 --irmroicls 2000 8000 0 0 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 10 1000 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+-sdg --exp_name colour9-A --datapath colour9unbal -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env3 -td 0 3 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+# Env0,1,2,3,4
+-sdg --exp_name colour9-A --datapath colour9unbal -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 env3 env4 -td 0 1 2 3 4 --irmroicls 2000 8000 0 500 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+-sdg --exp_name colour9-A --datapath colour9unbal -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 env3 env4 -td 0 1 2 3 4 --irmroicls 2000 8000 0 0 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 10 1000 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+-sdg --exp_name colour9-A --datapath colour9unbal -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 env3 env4 -td 0 1 2 3 4 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+
+### colour9 smaller batch sizes, ERM for 20k iters
+# batch size 2
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 20000 --batch_size 2
+# batch size 5
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 20000 --batch_size 5
+# batch size 10
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 20000 --batch_size 10
+# batch size 20, 15k iters
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 20000 --batch_size 20
+
+## irmfullw experiments, try 25
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 2000 8000 0 500 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000 --irmfullw
+### 20/04 batch size 5, roicls a bit stronger
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 8000 16000 0 100 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 20000 --batch_size 5
+# bs20, 50<roicls<500
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 4000 12000 0 250 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 15000 --batch_size 20
+# bs20, later annealing
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 8000 16000 0 250 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 20000 --batch_size 20
+## exp colour6-A with weaker roicls for longer
+-sdg --exp_name colour6-A --datapath colour6 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 2000 8000 0 200 0 --irmroibbox 2000 8000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 12000
+-sdg --exp_name colour6-A --datapath colour6 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 2000 8000 0 50 0 --irmroibbox 2000 8000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 12000
+## colour9flip, weaker
+-sdg --exp_name colour9-A --datapath colour9flip -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 2000 8000 0 100 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+## bbox1, stronger rpnbbox
+-sdg --exp_name bbox-A --datapath bbox1 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 2000 8000 0 0 0 --irmroibbox 2000 8000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 2000 8000 0 1000 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+
+#### 21/04 
+# irmfullw, later annealing and much weaker
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 3000 9000 0 50 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000 --irmfullw
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 3000 9000 0 5 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000 --irmfullw
+### batch size 5, roicls a bit earlier; a bit weaker
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 5000 10000 0 50 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 20000 --batch_size 5
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 5000 10000 0 25 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 20000 --batch_size 5
+
+
+### 29/04
+# env0,4. First 25, then ERM
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env4 -td 0 4 --irmroicls 2000 8000 0 500 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env4 -td 0 4 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+## randomise_doms. First 25, then 21
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 2000 8000 0 500 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000 --randomise_doms
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000 --batch_size 35 --randomise_doms
+# env0,4 more settings
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env4 -td 0 4 --irmroicls 2000 8000 0 50 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+
+
+## 30/04: bboxcorr for bbox1 dataset. First, IRM with zero strength (only implemented in irm head)
+-sdg --exp_name bbox-A --datapath bbox1 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 2000 8000 0 0 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000 --bboxcorr
+# New one, now keeping one domain constant at default output
+-sdg --exp_name bbox-A --datapath bbox1 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 2000 8000 0 0 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000 --bboxcorr
+# 3/05: New one, now with the bias in the test set, for proper comparison
+-sdg --exp_name bbox-A --datapath bbox2 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 2000 8000 0 0 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000 --bboxcorr
+-sdg --exp_name bbox-A --datapath bbox2 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 2000 8000 0 0 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000 
+# 4/05: Try this again, modified code to have scale around 0 (will be relative percentage)
+-sdg --exp_name bbox-A --datapath bbox2 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 2000 8000 0 0 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000 --bboxcorr
+# 5/05: Now without scale, because we see zero effect
+-sdg --exp_name bbox-A --datapath bbox2 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 2000 8000 0 0 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000 --bboxcorr
+# 7/05: Fixed bug where correction params were not updated since they were not in model.parameters()
+-sdg --exp_name bbox-A --datapath bbox2 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 2000 8000 0 0 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000 --bboxcorr
+## env0-4 (based on 237), with split_batch
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 env3 env4 -td 0 1 2 3 4 --irmroicls 2000 8000 0 50 1 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+## and env0,4 split batch
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env4 -td 0 4 --irmroicls 2000 8000 0 50 1 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+# 10/05: Improved implementation, hopefully parameters are registered correctly now (using parameterlist)
+-sdg --exp_name bbox-A --datapath bbox2 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 2000 8000 0 0 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000 --bboxcorr
+# env0-4, split batch stronger
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 env3 env4 -td 0 1 2 3 4 --irmroicls 2000 8000 0 200 1 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+# env0,4, split batch stronger
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env4 -td 0 4 --irmroicls 2000 8000 0 200 1 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+# bbox shift again, now logs which domain is first
+-sdg --exp_name bbox-A --datapath bbox2 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 2000 8000 0 0 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000 --bboxcorr
+## 11/05: bbox shift but with defined default domain
+-sdg --exp_name bbox-A --datapath bbox2 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 2000 8000 0 0 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000 --bboxcorr --bcfirstdom 0
+# same but now with multiplier bias enabled
+-sdg --exp_name bbox-A --datapath bbox2 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 2000 8000 0 0 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000 --bboxcorr --bcfirstdom 0
+## Not working anymore, changed gain to smaller value in init
+-sdg --exp_name bbox-A --datapath bbox2 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 2000 8000 0 0 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000 --bboxcorr --bcfirstdom 0
+## separate gain for bias and scale
+-sdg --exp_name bbox-A --datapath bbox2 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 2000 8000 0 0 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000 --bboxcorr --bcfirstdom 0
+
+### 17/05: patterned dataset pattern1
+-sdg --exp_name pattern1-A --datapath pattern1 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+-sdg --exp_name pattern1-A --datapath pattern1 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 2000 8000 0 500 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+-sdg --exp_name pattern1-A --datapath pattern1 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 2000 8000 0 0 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 10 1000 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+### 19/05: pattern with less IRM (roicls)
+-sdg --exp_name pattern1-A --datapath pattern1 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 2000 8000 0 50 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+-sdg --exp_name pattern1-A --datapath pattern1 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 2000 8000 0 100 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+## pattern2
+-sdg --exp_name pattern1-A --datapath pattern2 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+-sdg --exp_name pattern1-A --datapath pattern2 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 2000 8000 0 50 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+-sdg --exp_name pattern1-A --datapath pattern2 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 2000 8000 0 100 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+# different annealing, start earlier
+-sdg --exp_name pattern1-A --datapath pattern2 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 0 8000 0 50 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+## 20/05: real baseline: 21 but trained on off and evaluated on off (and other sets, interested to know this)
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr off -td 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 50000 --batch_size 35
+## colour6, colour8, based on 71
+-sdg --exp_name colour6-A --datapath colour6 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 2000 8000 0 0 0 --irmroibbox 2000 8000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 10 1000 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+-sdg --exp_name colour8-A --datapath colour8 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 2000 8000 0 0 0 --irmroibbox 2000 8000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 10 1000 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+## pattern2, strong roicls
+-sdg --exp_name pattern1-A --datapath pattern2 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 2000 8000 0 500 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+## pattern3
+-sdg --exp_name pattern1-A --datapath pattern3 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+-sdg --exp_name pattern1-A --datapath pattern3 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 2000 8000 0 50 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+-sdg --exp_name pattern1-A --datapath pattern3 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 2000 8000 0 100 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+-sdg --exp_name pattern1-A --datapath pattern3 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 2000 8000 0 500 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+## 85 but weaker
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 env3 -td 0 1 2 3 --irmroicls 2000 8000 0 100 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 env3 -td 0 1 2 3 --irmroicls 2000 8000 0 500 1 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+## 404 bit weaker
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 env3 env4 -td 0 1 2 3 4 --irmroicls 2000 8000 0 100 1 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+## 326 but weaker and with split_batch
+-sdg --exp_name colour9-A --datapath colour9unbal -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 env3 -td 0 1 2 3 --irmroicls 2000 8000 0 100 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+-sdg --exp_name colour9-A --datapath colour9unbal -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 env3 -td 0 1 2 3 --irmroicls 2000 8000 0 100 1 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+-sdg --exp_name colour9-A --datapath colour9unbal -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 env3 -td 0 1 2 3 --irmroicls 2000 8000 0 200 1 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+# same for 330
+-sdg --exp_name colour9-A --datapath colour9unbal -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env3 -td 0 3 --irmroicls 2000 8000 0 100 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+-sdg --exp_name colour9-A --datapath colour9unbal -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env3 -td 0 3 --irmroicls 2000 8000 0 100 1 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+-sdg --exp_name colour9-A --datapath colour9unbal -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env3 -td 0 3 --irmroicls 2000 8000 0 200 1 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+# and 334 
+-sdg --exp_name colour9-A --datapath colour9unbal -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 env3 env4 -td 0 1 2 3 4 --irmroicls 2000 8000 0 100 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+-sdg --exp_name colour9-A --datapath colour9unbal -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 env3 env4 -td 0 1 2 3 4 --irmroicls 2000 8000 0 100 1 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+-sdg --exp_name colour9-A --datapath colour9unbal -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 env3 env4 -td 0 1 2 3 4 --irmroicls 2000 8000 0 200 1 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+# and normal for env0,4
+-sdg --exp_name colour9-A --datapath colour9unbal -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env4 -td 0 4 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+-sdg --exp_name colour9-A --datapath colour9unbal -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env4 -td 0 4 --irmroicls 2000 8000 0 0 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 10 1000 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+-sdg --exp_name colour9-A --datapath colour9unbal -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env4 -td 0 4 --irmroicls 2000 8000 0 100 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+-sdg --exp_name colour9-A --datapath colour9unbal -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env4 -td 0 4 --irmroicls 2000 8000 0 100 1 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+-sdg --exp_name colour9-A --datapath colour9unbal -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env4 -td 0 4 --irmroicls 2000 8000 0 200 1 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+### 14/06: ERM on default settings colour6 with checkpointer enabled, for domain detection exps
+-sdg --exp_name colour6-A --datapath colour6 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000 --checkptr
+### 15/06 (why did I do colour6 and not 9?) previous one with colour9
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000 --checkptr
+### 16/06: bbox2 with roibbox IRM (based on 308)
+-sdg --exp_name bbox-A --datapath bbox2 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 2000 8000 0 0 0 --irmroibbox 2000 8000 0 50 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000 
+### 5/07: 406 but with strength 500
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env4 -td 0 4 --irmroicls 2000 8000 0 200 1 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+### colour9unbal zero-weight IRM
+# env0,1,2
+-sdg --exp_name colour9-A --datapath colour9unbal -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 2000 8000 0 0 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+# env0,1
+-sdg --exp_name colour9-A --datapath colour9unbal -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 -td 0 1 --irmroicls 2000 8000 0 0 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+# Env0,2
+-sdg --exp_name colour9-A --datapath colour9unbal -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env2 -td 0 2 --irmroicls 2000 8000 0 0 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+# Env0,1,2,3
+-sdg --exp_name colour9-A --datapath colour9unbal -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 env3 -td 0 1 2 3 --irmroicls 2000 8000 0 0 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+# Env0,3
+-sdg --exp_name colour9-A --datapath colour9unbal -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env3 -td 0 3 --irmroicls 2000 8000 0 0 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+# Env0,1,2,3,4
+-sdg --exp_name colour9-A --datapath colour9unbal -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 env3 env4 -td 0 1 2 3 4 --irmroicls 2000 8000 0 0 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+### 6/07: 378 but stronger
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 2000 8000 0 1000 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000 --randomise_doms
+## with un_doms to still use IRM but without domain info
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 2000 8000 0 500 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000 --un_doms
+### 7/07: Run 23 and 25 again
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 2000 8000 0 1000 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+# And a bit weaker
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 2000 8000 0 500 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+### 8/07: IRM with only a single domain
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 0 0 --irmroicls 2000 8000 0 500 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+## and a few stronger ones
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 0 0 --irmroicls 2000 8000 0 1000 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 0 0 --irmroicls 2000 8000 0 1500 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+### 12/07: randomise_doms on colour6, colour8 (based on 378)
+-sdg --exp_name colour6-A --datapath colour6 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 2000 8000 0 500 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000 --randomise_doms
+-sdg --exp_name colour8-A --datapath colour8 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --irmroicls 2000 8000 0 500 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000 --randomise_doms
+### 15/07: randomise_doms on colour9 env0,1
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 -td 0 1 --irmroicls 2000 8000 0 500 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000 --randomise_doms
+#### 17/07: based on 492 but ERM
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 env2 -td 0 1 2 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000
+### 111 again but stronger
+-sdg --exp_name colour9-A --datapath colour9 -te env0 env1 env2 env3 env4 env5 off grey -tr env0 env1 -td 0 1 --irmroicls 2000 8000 0 1000 0 --irmroibbox 0 4000 0 0 0 --irmrpncls 0 2000 0 0 0 --irmrpnbbox 0 2000 0 0 0 --val_sets env0 env1 env2 env3 env4 env5 off grey --max_norm 20 --no_pt --total_iter 10000

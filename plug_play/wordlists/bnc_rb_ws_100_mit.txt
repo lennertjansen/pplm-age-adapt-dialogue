@@ -1,0 +1,100 @@
+-3.2079	um             		2.3738	yes
+-2.8439	cool           		2.1240	you know
+-2.5770	shit           		2.0938	wonderful
+-2.1180	hmm            		1.9017	how weird
+-2.0908	like           		1.8413	chinese
+-2.0221	was like       		1.7360	right
+-1.9588	love           		1.7095	building
+-1.9582	as well        		1.6576	right right
+-1.8822	as in          		1.5475	so erm
+-1.8353	cute           		1.4347	mm mm
+-1.8207	uni            		1.4079	cheers
+-1.7928	massive        		1.3854	shed
+-1.7898	wanna          		1.3696	pain
+-1.7815	fuck           		1.3601	we know
+-1.7219	tut            		1.3511	laugh yeah exactly
+-1.6155	fucking        		1.3471	ordinary
+-1.5800	but yeah       		1.3194	mother
+-1.5650	mhm            		1.3187	operation
+-1.5577	basically      		1.3088	garden
+-1.5320	jesus          		1.2988	ll be nice
+-1.5269	grand          		1.2819	gosh
+-1.4768	bitch          		1.2638	well
+-1.4650	lol            		1.2526	aha
+-1.4519	pretty         		1.2518	school
+-1.4353	ridiculous     		1.2452	email
+-1.4286	awesome        		1.2341	everybody
+-1.4279	yay            		1.2281	yellow
+-1.4220	yeah definitely		1.2274	in in
+-1.4038	was amazing    		1.2258	lord
+-1.3964	ooh            		1.2145	to look
+-1.3954	weird          		1.1897	photographs
+-1.3924	and yeah       		1.1875	glasses
+-1.3824	guess          		1.1851	good good
+-1.3510	pizza          		1.1701	trombone
+-1.3496	annoying       		1.1641	fine thanks
+-1.3181	mate           		1.1602	that right
+-1.3007	right now      		1.1416	got no idea
+-1.2911	unclear unclear		1.1407	yes yes
+-1.2882	excited        		1.1235	absolutely
+-1.2867	hate           		1.1196	of course
+-1.2773	shut           		1.1181	born
+-1.2771	bad            		1.1180	apple
+-1.2689	food           		1.1161	is is
+-1.2612	said yes       		1.1127	and and
+-1.2487	know what mean 		1.1067	goodness me
+-1.2398	yeah of course 		1.1054	good fun
+-1.2359	miss           		1.1020	hospice
+-1.2354	and stuff      		1.0956	yep yeah
+-1.2215	yeah of        		1.0833	no exactly
+-1.2205	just don       		1.0815	lawn
+-1.2121	scared         		1.0770	business
+-1.2017	and then       		1.0731	like your
+-1.1957	definitely     		1.0730	poodle
+-1.1831	you don have   		1.0721	it it
+-1.1651	to like        		1.0676	don know unclear
+-1.1636	yes please     		1.0674	not just
+-1.1600	do you know    		1.0641	darling
+-1.1558	about you      		1.0621	or or
+-1.1558	oo             		1.0617	laugh yeah pause
+-1.1512	mean yeah      		1.0585	okay fine
+-1.1506	coke           		1.0565	not nice
+-1.1437	mental         		1.0513	mind you
+-1.1349	short you know 		1.0509	no sure
+-1.1215	fun            		1.0460	you come
+-1.1137	gym            		1.0402	and so
+-1.1099	yes indeed     		1.0318	misty
+-1.1094	nice           		1.0305	church
+-1.1071	oh okay        		1.0303	tank
+-1.1055	it fine        		1.0303	cheers mate
+-1.1055	so good        		1.0269	the the
+-1.1050	friends        		1.0231	xylophone
+-1.1017	no way         		1.0218	huge
+-1.1012	cat            		1.0208	chap
+-1.0902	nope           		1.0184	charity
+-1.0778	fourteen       		1.0174	like this
+-1.0770	hilarious      		1.0157	oh don know
+-1.0714	was really     		1.0134	so what are
+-1.0660	really good    		1.0130	trunc trunc it
+-1.0635	baby           		1.0101	right oh
+-1.0630	gonna          		1.0096	paint
+-1.0587	bless          		1.0081	my word
+-1.0576	ugly           		1.0081	oh my word
+-1.0570	my gosh        		1.0069	horses
+-1.0562	oh my gosh     		1.0054	bin
+-1.0511	so well        		1.0050	daughter
+-1.0504	wee            		1.0046	erm and
+-1.0420	smaller        		1.0007	bath
+-1.0375	date           		0.9957	sensible
+-1.0348	night          		0.9910	didn she
+-1.0323	desc misc yes  		0.9876	computer
+-1.0323	misc yes       		0.9820	extraordinary
+-1.0308	guy            		0.9803	much more
+-1.0217	photo          		0.9772	not anon nametype
+-1.0215	egg            		0.9744	occasional
+-1.0198	garlic         		0.9728	how amazing
+-1.0196	for like       		0.9717	in china
+-1.0175	yeah that true 		0.9711	be back
+-1.0173	literally      		0.9609	sandwiches
+-1.0145	honestly       		0.9607	pension
+-1.0143	like yeah      		0.9579	crikey

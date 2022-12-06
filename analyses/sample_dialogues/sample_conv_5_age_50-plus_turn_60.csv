@@ -1,0 +1,533 @@
+speaker_id,gender,topics,conv_id,turn,text,length,label,clean_text,age_cat,clean_length
+S0013,F,['no info'],SP5U,1,"so how was <anon type=""place"" /> then?",6,50_plus,anon type place,50-plus,3
+S0012,M,['no info'],SP5U,2,oh so busy,3,50_plus,oh busy,50-plus,2
+S0013,F,['no info'],SP5U,3,really busy?,3,50_plus,really busy,50-plus,2
+S0012,M,['no info'],SP5U,4,so busy,2,50_plus,busy,50-plus,1
+S0013,F,['no info'],SP5U,5,cos er that's cos it's Friday,8,50_plus,cos er cos friday,50-plus,4
+S0012,M,['no info'],SP5U,6,"I thought I'd never get a car park place but I just got the first one I saw <pause dur=""short"" /> that's why I didn't go in our usual place",30,50_plus,thought never get car park place got first one saw pause dur short go usual place,50-plus,16
+S0013,F,['no info'],SP5U,7,mm,1,50_plus,mm,50-plus,1
+S0012,M,['no info'],SP5U,8,"but er crowds and crowds <pause dur=""short"" /> I don't like going in on a Friday why didn't you tell me that was Friday today?",25,50_plus,er crowds crowds pause dur short like going friday tell friday today,50-plus,12
+S0013,F,['no info'],SP5U,9,"you knew it was Friday <pause dur=""short"" /> you asked me this morning <pause dur=""short"" /> what's today?",14,50_plus,knew friday pause dur short asked morning pause dur short today,50-plus,11
+S0012,M,['no info'],SP5U,10,"<vocal desc=""sigh"" />",0,50_plus,vocal desc sigh,50-plus,3
+S0013,F,['no info'],SP5U,11,"<vocal desc=""laugh"" />",0,50_plus,vocal desc laugh,50-plus,3
+S0012,M,['no info'],SP5U,12,it was quite horrible,4,50_plus,quite horrible,50-plus,2
+S0013,F,['no info'],SP5U,13,I didn't know you were planning to go out,10,50_plus,know planning go,50-plus,3
+S0012,M,['no info'],SP5U,14,"well <pause dur=""short"" /> when am I going to go out? tomorrow? Saturday?",13,50_plus,well pause dur short going go tomorrow saturday,50-plus,8
+S0013,F,['no info'],SP5U,15,"I don't know I just didn't know you were planning today <pause dur=""long"" /> oh",14,50_plus,know know planning today pause dur long oh,50-plus,8
+S0012,M,['no info'],SP5U,16,<trunc>wi</trunc>,0,50_plus,trunc wi trunc,50-plus,3
+S0013,F,['no info'],SP5U,17,"<anon nameType=""f"" type=""name"" />'s out of hospital",5,50_plus,anon nametype f type name hospital,50-plus,6
+S0012,M,['no info'],SP5U,18,is she? oh that,5,50_plus,oh,50-plus,1
+S0013,F,['no info'],SP5U,19,yeah,1,50_plus,yeah,50-plus,1
+S0012,M,['no info'],SP5U,20,was quick,2,50_plus,quick,50-plus,1
+S0013,F,['no info'],SP5U,21,she's home,3,50_plus,home,50-plus,1
+S0012,M,['no info'],SP5U,22,oh well,2,50_plus,oh well,50-plus,2
+S0013,F,['no info'],SP5U,23,"yeah <pause dur=""short"" /> arrived home this afternoon",5,50_plus,yeah pause dur short arrived home afternoon,50-plus,7
+S0012,M,['no info'],SP5U,24,oh <unclear />,2,50_plus,oh unclear,50-plus,2
+S0013,F,['no info'],SP5U,25,"I hope there's someone that goes in to make sure she's alright though <pause dur=""short"" /> it's a <trunc>b</trunc> it's it's a bit <pause dur=""short"" /> you're in hospital one minute and then you're back home and you're ninety odd",41,50_plus,hope someone goes make sure alright though pause dur short trunc b trunc bit pause dur short hospital one minute back home ninety odd,50-plus,24
+S0012,M,['no info'],SP5U,26,"well I expect <pause dur=""short"" /> yeah <pause dur=""short"" /> I expect they let theirselves in cos <pause dur=""short"" /> they know the <trunc>f</trunc> the key the key don't they?",22,50_plus,well expect pause dur short yeah pause dur short expect let theirselves cos pause dur short know trunc f trunc key key,50-plus,22
+S0013,F,['no info'],SP5U,27,they will have someone go in,6,50_plus,someone go,50-plus,2
+S0012,M,['no info'],SP5U,28,mm,1,50_plus,mm,50-plus,1
+S0013,F,['no info'],SP5U,29,"yeah <pause dur=""short"" /> <anon nameType=""f"" type=""name"" /> said she was a bit confused <pause dur=""short"" /> but she's home",12,50_plus,yeah pause dur short anon nametype f type name said bit confused pause dur short home,50-plus,16
+S0012,M,['no info'],SP5U,30,well,1,50_plus,well,50-plus,1
+S0013,F,['no info'],SP5U,31,"<unclear>at least</unclear> be home <pause dur=""short"" /> mm",3,50_plus,unclear least unclear home pause dur short mm,50-plus,8
+S0012,M,['no info'],SP5U,32,"mm <pause dur=""short"" /> well let's hope she don't keep falling down like she did before",15,50_plus,mm pause dur short well let hope keep falling like,50-plus,10
+S0013,F,['no info'],SP5U,33,mm,1,50_plus,mm,50-plus,1
+S0012,M,['no info'],SP5U,34,I mean her leg'll never get better will it?,11,50_plus,mean leg never get better,50-plus,5
+S0013,F,['no info'],SP5U,35,"I don't think they'll <pause dur=""short"" /> no",7,50_plus,think pause dur short,50-plus,4
+S0013,F,['no info'],SP5U,37,you don't heal do you?,7,50_plus,heal,50-plus,1
+S0013,F,['no info'],SP5U,39,at a certain age,4,50_plus,certain age,50-plus,2
+S0012,M,['no info'],SP5U,40,"no <pause dur=""long"" /> that's why people finish up with ulcers and stuff on their legs and",15,50_plus,pause dur long people finish ulcers stuff legs,50-plus,8
+S0013,F,['no info'],SP5U,41,"yeah <pause dur=""short"" /> that flesh eating thing though you your mum had that flesh eating thing didn't she?",18,50_plus,yeah pause dur short flesh eating thing though mum flesh eating thing,50-plus,12
+S0012,M,['no info'],SP5U,42,mm,1,50_plus,mm,50-plus,1
+S0013,F,['no info'],SP5U,43,you don't hear about that any more,8,50_plus,hear,50-plus,1
+S0012,M,['no info'],SP5U,44,"no you don't <pause dur=""short"" /> no",5,50_plus,pause dur short,50-plus,3
+S0013,F,['no info'],SP5U,45,there's these odd things that you <trunc>hea</trunc>,7,50_plus,odd things trunc hea trunc,50-plus,5
+S0012,M,['no info'],SP5U,46,mm,1,50_plus,mm,50-plus,1
+S0013,F,['no info'],SP5U,47,"it's in the news isn't it? and then all of a sudden you never <pause dur=""short"" /> hear of it again",21,50_plus,news sudden never pause dur short hear,50-plus,7
+S0013,F,['no info'],SP5U,49,like the swine flu and,5,50_plus,like swine flu,50-plus,3
+S0012,M,['no info'],SP5U,50,"yeah <pause dur=""short"" /> that's died",4,50_plus,yeah pause dur short died,50-plus,5
+S0013,F,['no info'],SP5U,51,mm,1,50_plus,mm,50-plus,1
+S0012,M,['no info'],SP5U,52,"<vocal desc=""laugh"" /> that probably <unclear /> the swine flu itself didn't it? that killed it off",15,50_plus,vocal desc laugh probably unclear swine flu killed,50-plus,8
+S0013,F,['no info'],SP5U,53,"they were giving everyone injections <pause dur=""short"" /> even little children",8,50_plus,giving everyone injections pause dur short even little children,50-plus,9
+S0012,M,['no info'],SP5U,54,"cor that's another thing <pause dur=""short"" /> they asked me if I wanted these injections yesterday",14,50_plus,cor another thing pause dur short asked wanted injections yesterday,50-plus,10
+S0013,F,['no info'],SP5U,55,mm,1,50_plus,mm,50-plus,1
+S0012,M,['no info'],SP5U,56,"one was for I forget what the other one was <trunc>f</trunc>for er flu <pause dur=""short"" /> that was a flu injection",18,50_plus,one forget one trunc f trunc er flu pause dur short flu injection,50-plus,13
+S0013,F,['no info'],SP5U,57,I see flu and shingles,5,50_plus,see flu shingles,50-plus,3
+S0012,M,['no info'],SP5U,58,and shingles,2,50_plus,shingles,50-plus,1
+S0013,F,['no info'],SP5U,59,mm,1,50_plus,mm,50-plus,1
+S0012,M,['no info'],SP5U,60,I said no I don't have them,8,50_plus,said,50-plus,1
+S0013,F,['no info'],SP5U,61,<unclear>no</unclear>,0,50_plus,unclear unclear,50-plus,2
+S0012,M,['no info'],SP5U,62,seems strange though but apparently when you get to a certain age you're entitled to have em,18,50_plus,seems strange though apparently get certain age entitled em,50-plus,9
+S0013,F,['no info'],SP5U,63,"<vocal desc=""laugh"" /> right",1,50_plus,vocal desc laugh right,50-plus,4
+S0012,M,['no info'],SP5U,64,and I'm at that age,6,50_plus,age,50-plus,1
+S0013,F,['no info'],SP5U,65,weren't you entitled to have a flu injection earlier then?,12,50_plus,entitled flu injection earlier,50-plus,4
+S0013,F,['no info'],SP5U,67,"ah <pause dur=""short"" /> only people like me with asthma?",8,50_plus,ah pause dur short people like asthma,50-plus,7
+S0012,M,['no info'],SP5U,68,mm,1,50_plus,mm,50-plus,1
+S0013,F,['no info'],SP5U,69,mm I'm not having it,6,50_plus,mm,50-plus,1
+S0012,M,['no info'],SP5U,70,no I said I don't want it,8,50_plus,said want,50-plus,2
+S0013,F,['no info'],SP5U,71,heard so many horror stories about how ill you are,10,50_plus,heard many horror stories ill,50-plus,5
+S0012,M,['no info'],SP5U,72,"well er what's-his-name have it don't he? er <anon nameType=""m"" type=""name"" /> he have it every time",16,50_plus,well er name er anon nametype type name every time,50-plus,10
+S0013,F,['no info'],SP5U,73,"yes <pause dur=""short"" /> he was ill once and then",7,50_plus,yes pause dur short ill,50-plus,5
+S0012,M,['no info'],SP5U,74,mm,1,50_plus,mm,50-plus,1
+S0013,F,['no info'],SP5U,75,he's been fine ever since,6,50_plus,fine ever since,50-plus,3
+S0012,M,['no info'],SP5U,76,but does that mean you got to have a flu injection every year?,14,50_plus,mean got flu injection every year,50-plus,6
+S0013,F,['no info'],SP5U,77,"I don't know <pause dur=""short"" /> what? once you start?",10,50_plus,know pause dur short start,50-plus,5
+S0012,M,['no info'],SP5U,78,well no not just once you start do you have to back it up? like years ago when we had tetanus injections when we were kids,27,50_plus,well start back like years ago tetanus injections kids,50-plus,9
+S0013,F,['no info'],SP5U,79,yeah,1,50_plus,yeah,50-plus,1
+S0012,M,['no info'],SP5U,80,you had to have a <trunc>ba</trunc> er er a booster didn't you?,13,50_plus,trunc ba trunc er er booster,50-plus,6
+S0013,F,['no info'],SP5U,81,mm,1,50_plus,mm,50-plus,1
+S0012,M,['no info'],SP5U,82,and then they sent you a letter to say go and have another booster about twenty years later,18,50_plus,sent letter say go another booster twenty years later,50-plus,9
+S0013,F,['no info'],SP5U,83,yeah,1,50_plus,yeah,50-plus,1
+S0012,M,['no info'],SP5U,84,"and then they say there's no need for it <pause dur=""short"" /> there's no need for the booster any more",19,50_plus,say need pause dur short need booster,50-plus,7
+S0013,F,['no info'],SP5U,85,mm,1,50_plus,mm,50-plus,1
+S0012,M,['no info'],SP5U,86,"has tetanus died out in <anon type=""place"" />? <vocal desc=""laugh"" /> cos that used to be a big tetanus area",16,50_plus,tetanus died anon type place vocal desc laugh cos used big tetanus area,50-plus,13
+S0012,M,['no info'],SP5U,88,one of my friends at school died of tetanus,9,50_plus,one friends school died tetanus,50-plus,5
+S0013,F,['no info'],SP5U,89,"yeah <pause dur=""short"" /> you can get it from just pricking yourself in the",11,50_plus,yeah pause dur short get pricking,50-plus,6
+S0012,M,['no info'],SP5U,90,well he,2,50_plus,well,50-plus,1
+S0012,M,['no info'],SP5U,92,er he yeah you can get,6,50_plus,er yeah get,50-plus,3
+S0013,F,['no info'],SP5U,93,on a thorn,3,50_plus,thorn,50-plus,1
+S0012,M,['no info'],SP5U,94,on a thorn but you you got it's in in the soil,13,50_plus,thorn got soil,50-plus,3
+S0013,F,['no info'],SP5U,95,"<vocal desc=""misc"" /> oh yeah",2,50_plus,vocal desc misc oh yeah,50-plus,5
+S0012,M,['no info'],SP5U,96,"and it lives a long while in the soil <pause dur=""short"" /> and er one of my friends he at school I mean we were only about <vocal desc=""gasp"" /> we'd just then moved up to the senior school so we were only eleven twelve",40,50_plus,lives long soil pause dur short er one friends school mean vocal desc gasp moved senior school eleven twelve,50-plus,19
+S0013,F,['no info'],SP5U,97,yeah,1,50_plus,yeah,50-plus,1
+S0012,M,['no info'],SP5U,98,"and that was firework night <pause dur=""short"" /> and er he had some fireworks in his pocket",14,50_plus,firework night pause dur short er fireworks pocket,50-plus,8
+S0013,F,['no info'],SP5U,99,mm,1,50_plus,mm,50-plus,1
+S0012,M,['no info'],SP5U,100,"and they went off <pause dur=""short"" /> and they <trunc>w</trunc> the people round him they <trunc>r</trunc>rolled him in the <pause dur=""short"" /> in the soil",18,50_plus,went pause dur short trunc w trunc people round trunc r trunc rolled pause dur short soil,50-plus,17
+S0013,F,['no info'],SP5U,101,yeah,1,50_plus,yeah,50-plus,1
+S0012,M,['no info'],SP5U,102,and then he had to go straight to hospital anyway to have his burns,14,50_plus,go straight hospital anyway burns,50-plus,5
+S0013,F,['no info'],SP5U,103,burns,1,50_plus,burns,50-plus,1
+S0012,M,['no info'],SP5U,104,"sorted out <pause dur=""short"" /> and he got tetanus",6,50_plus,sorted pause dur short got tetanus,50-plus,6
+S0013,F,['no info'],SP5U,105,so did he survive alright?,6,50_plus,survive alright,50-plus,2
+S0012,M,['no info'],SP5U,106,no he <trunc>ne</trunc>never survived he died,6,50_plus,trunc ne trunc never survived died,50-plus,6
+S0013,F,['no info'],SP5U,107,no? mm,3,50_plus,mm,50-plus,1
+S0012,M,['no info'],SP5U,108,I said one of my friends died,7,50_plus,said one friends died,50-plus,4
+S0013,F,['no info'],SP5U,109,yes you did er sorry,5,50_plus,yes er sorry,50-plus,3
+S0012,M,['no info'],SP5U,110,"at school <pause dur=""short"" /> and er",4,50_plus,school pause dur short er,50-plus,5
+S0013,F,['no info'],SP5U,111,so it's almost immediately is it?,8,50_plus,almost immediately,50-plus,2
+S0012,M,['no info'],SP5U,112,"well no <pause dur=""short"" /> the tetanus comes on about over about the course of three days I think <pause dur=""short"" /> or something like that I I that might not be true but <pause dur=""short"" /> he went to hospital to have his burns sorted out <pause dur=""short"" /> he already had the tetanus <pause dur=""short"" /> er he hadn't had tetanus injections I don't suppose I don't know whether he did or not but if he had tetanus injections on top of catching tetanus well that would've done him in anyway wouldn't it?",86,50_plus,well pause dur short tetanus comes course three days think pause dur short something like might true pause dur short went hospital burns sorted pause dur short already tetanus pause dur short er tetanus injections suppose know whether tetanus injections top catching tetanus well would done anyway,50-plus,47
+S0013,F,['no info'],SP5U,113,"yeah <pause dur=""short"" /> yeah it would wouldn't it?",8,50_plus,yeah pause dur short yeah would,50-plus,6
+S0012,M,['no info'],SP5U,114,"yeah <pause dur=""short"" /> well I think so anyway",6,50_plus,yeah pause dur short well think anyway,50-plus,7
+S0013,F,['no info'],SP5U,115,<unclear />,1,50_plus,unclear,50-plus,1
+S0012,M,['no info'],SP5U,116,"but er <pause dur=""short"" /> I mean that that was about two weeks before the the we went we went back when we were back at school <pause dur=""short"" /> and that was about <pause dur=""short"" /> that was about two weeks <pause dur=""short"" /> and the headmaster announced it at erm at the <trunc>s</trunc> at the assembly",45,50_plus,er pause dur short mean two weeks went went back back school pause dur short pause dur short two weeks pause dur short headmaster announced erm trunc trunc assembly,50-plus,29
+S0013,F,['no info'],SP5U,117,"oh gosh <pause dur=""long"" /> mm",3,50_plus,oh gosh pause dur long mm,50-plus,6
+S0012,M,['no info'],SP5U,118,yeah and well I mean that hurt that really shocked er <trunc>l</trunc>lots of his friends,15,50_plus,yeah well mean hurt really shocked er trunc l trunc lots friends,50-plus,12
+S0013,F,['no info'],SP5U,119,"yeah <pause dur=""short"" /> I <unclear>didn't</unclear> like fireworks anyway <pause dur=""short"" /> er putting em in your pocket's pretty stupid isn't it?",18,50_plus,yeah pause dur short unclear unclear like fireworks anyway pause dur short er putting em pocket pretty stupid,50-plus,18
+S0012,M,['no info'],SP5U,120,"yeah but kids <pause dur=""short"" /> I mean",5,50_plus,yeah kids pause dur short mean,50-plus,6
+S0013,F,['no info'],SP5U,121,yeah,1,50_plus,yeah,50-plus,1
+S0013,F,['no info'],SP5U,123,"like the fire jackers <pause dur=""short"" /> fire <vocal desc=""misc"" /> cracker things <unclear />",8,50_plus,like fire jackers pause dur short fire vocal desc misc cracker things unclear,50-plus,13
+S0012,M,['no info'],SP5U,124,what? the jumping jacks?,6,50_plus,jumping jacks,50-plus,2
+S0013,F,['no info'],SP5U,125,jumping jacks,2,50_plus,jumping jacks,50-plus,2
+S0012,M,['no info'],SP5U,126,yeah they were very dangerous,5,50_plus,yeah dangerous,50-plus,2
+S0013,F,['no info'],SP5U,127,people letting them off everywhere weren't they?,9,50_plus,people letting everywhere,50-plus,3
+S0012,M,['no info'],SP5U,128,they jumped all over the place didn't they?,10,50_plus,jumped place,50-plus,2
+S0013,F,['no info'],SP5U,129,trying to get to your legs,6,50_plus,trying get legs,50-plus,3
+S0012,M,['no info'],SP5U,130,and <trunc>peop</trunc>and people'd have their fireworks on the floor,10,50_plus,trunc peop trunc people fireworks floor,50-plus,6
+S0013,F,['no info'],SP5U,131,mm,1,50_plus,mm,50-plus,1
+S0012,M,['no info'],SP5U,132,and they'd jump,4,50_plus,jump,50-plus,1
+S0013,F,['no info'],SP5U,133,yeah,1,50_plus,yeah,50-plus,1
+S0012,M,['no info'],SP5U,134,jump and set the fireworks off,6,50_plus,jump set fireworks,50-plus,3
+S0013,F,['no info'],SP5U,135,yeah,1,50_plus,yeah,50-plus,1
+S0012,M,['no info'],SP5U,136,"they got banned <pause dur=""short"" /> jolly good job they did",8,50_plus,got banned pause dur short jolly good job,50-plus,8
+S0013,F,['no info'],SP5U,137,I know they were <trunc>d</trunc>they were doing em in the street on the way home from school,17,50_plus,know trunc trunc em street way home school,50-plus,8
+S0012,M,['no info'],SP5U,138,"yeah <pause dur=""short"" /> yeah",2,50_plus,yeah pause dur short yeah,50-plus,5
+S0013,F,['no info'],SP5U,139,mm,1,50_plus,mm,50-plus,1
+S0012,M,['no info'],SP5U,140,terrible ain't it?,5,50_plus,terrible,50-plus,1
+S0013,F,['no info'],SP5U,141,mm,1,50_plus,mm,50-plus,1
+S0012,M,['no info'],SP5U,142,"I don't I don't like firework night I mean when we went to see that big display at <anon type=""place"" />",21,50_plus,like firework night mean went see big display anon type place,50-plus,11
+S0013,F,['no info'],SP5U,143,yeah,1,50_plus,yeah,50-plus,1
+S0012,M,['no info'],SP5U,144,"and er well what goes up must come down <pause dur=""short"" /> and that just happened to be a a rocket that",19,50_plus,er well goes must come pause dur short happened rocket,50-plus,10
+S0013,F,['no info'],SP5U,145,yeah,1,50_plus,yeah,50-plus,1
+S0012,M,['no info'],SP5U,146,"hit <anon nameType=""f"" type=""name"" /> on the head and me on the shoulder and well it my burnt my burnt me neck but not much",22,50_plus,hit anon nametype f type name head shoulder well burnt burnt neck much,50-plus,13
+S0013,F,['no info'],SP5U,147,mm,1,50_plus,mm,50-plus,1
+S0012,M,['no info'],SP5U,148,"and it hurt <anon nameType=""f"" type=""name"" /> didn't it?",8,50_plus,hurt anon nametype f type name,50-plus,6
+S0013,F,['no info'],SP5U,149,yeah she doesn't like fireworks,6,50_plus,yeah like fireworks,50-plus,3
+S0012,M,['no info'],SP5U,150,well can't wonder at it she was only about three weren't she?,15,50_plus,well wonder three,50-plus,3
+S0013,F,['no info'],SP5U,151,"yeah <pause dur=""short"" /> she can but she can <pause dur=""short"" /> yeah hasn't gone away has it?",14,50_plus,yeah pause dur short pause dur short yeah gone away,50-plus,10
+S0013,F,['no info'],SP5U,153,doesn't really does it?,6,50_plus,really,50-plus,1
+S0013,F,['no info'],SP5U,155,that was a shame cos that was the best display I've <trunc>e</trunc>ever seen,14,50_plus,shame cos best display trunc e trunc ever seen,50-plus,9
+S0012,M,['no info'],SP5U,156,that was the best display ever that the that dragon eating the sun,13,50_plus,best display ever dragon eating sun,50-plus,6
+S0013,F,['no info'],SP5U,157,"yeah <pause dur=""short"" /> that was that was",5,50_plus,yeah pause dur short,50-plus,4
+S0012,M,['no info'],SP5U,158,that was fantastic weren't it? yeah,8,50_plus,fantastic yeah,50-plus,2
+S0013,F,['no info'],SP5U,159,beautifully done,2,50_plus,beautifully done,50-plus,2
+S0012,M,['no info'],SP5U,160,I've never seen a display like that now they just have,12,50_plus,never seen display like,50-plus,4
+S0013,F,['no info'],SP5U,161,mm,1,50_plus,mm,50-plus,1
+S0012,M,['no info'],SP5U,162,all these these huge firework displays that cost enormous amount of money and all you can see is up in the air ain't it?,26,50_plus,huge firework displays cost enormous amount money see air,50-plus,9
+S0013,F,['no info'],SP5U,163,mm,1,50_plus,mm,50-plus,1
+S0012,M,['no info'],SP5U,164,but this one was on a big railway line type thing weren't it?,15,50_plus,one big railway line type thing,50-plus,6
+S0013,F,['no info'],SP5U,165,"yeah <pause dur=""short"" /> travelling along",3,50_plus,yeah pause dur short travelling along,50-plus,6
+S0012,M,['no info'],SP5U,166,and that travelled along didn't it?,8,50_plus,travelled along,50-plus,2
+S0013,F,['no info'],SP5U,167,yeah,1,50_plus,yeah,50-plus,1
+S0012,M,['no info'],SP5U,168,and that's years ago that is,7,50_plus,years ago,50-plus,2
+S0013,F,['no info'],SP5U,169,that was I mean er the the dragon by itself was beautiful,12,50_plus,mean er dragon beautiful,50-plus,4
+S0012,M,['no info'],SP5U,170,yeah that was weren't it?,7,50_plus,yeah,50-plus,1
+S0013,F,['no info'],SP5U,171,mm,1,50_plus,mm,50-plus,1
+S0012,M,['no info'],SP5U,172,"I think it's the best firework display we've been to <pause dur=""short"" /> unfortunately",13,50_plus,think best firework display pause dur short unfortunately,50-plus,8
+S0013,F,['no info'],SP5U,173,yeah,1,50_plus,yeah,50-plus,1
+S0012,M,['no info'],SP5U,174,"<anon nameType=""f"" type=""name"" /> got hit",3,50_plus,anon nametype f type name got hit,50-plus,7
+S0013,F,['no info'],SP5U,175,that's a shame there wasn't a <unclear>like your</unclear> video I'd like to have seen it really again,18,50_plus,shame unclear like unclear video like seen really,50-plus,8
+S0012,M,['no info'],SP5U,176,"video? that that would've been something <pause dur=""short"" /> er forty years ago",12,50_plus,video would something pause dur short er forty years ago,50-plus,10
+S0013,F,['no info'],SP5U,177,"mm <pause dur=""short"" /> <vocal desc=""laugh"" />",1,50_plus,mm pause dur short vocal desc laugh,50-plus,7
+S0012,M,['no info'],SP5U,178,videos? I don't think they were even invented were they?,13,50_plus,videos think even invented,50-plus,4
+S0013,F,['no info'],SP5U,179,it was nearly forty years ago,6,50_plus,nearly forty years ago,50-plus,4
+S0012,M,['no info'],SP5U,180,yeah,1,50_plus,yeah,50-plus,1
+S0013,F,['no info'],SP5U,181,"oh gosh <pause dur=""short"" /> mm",3,50_plus,oh gosh pause dur short mm,50-plus,6
+S0012,M,['no info'],SP5U,182,"<vocal desc=""laugh"" />",0,50_plus,vocal desc laugh,50-plus,3
+S0013,F,['no info'],SP5U,183,mm,1,50_plus,mm,50-plus,1
+S0012,M,['no info'],SP5U,184,you don't realise how quickly time go do you?,11,50_plus,realise quickly time go,50-plus,4
+S0012,M,['no info'],SP5U,186,"that's <vocal desc=""laugh"" />",2,50_plus,vocal desc laugh,50-plus,3
+S0013,F,['no info'],SP5U,187,"we <trunc>sh</trunc>we should google that <pause dur=""short"" /> <anon type=""place"" /> fair <pause dur=""short"" /> it was <anon type=""place"" /> fair wasn't it?",15,50_plus,trunc sh trunc google pause dur short anon type place fair pause dur short anon type place fair,50-plus,18
+S0012,M,['no info'],SP5U,188,"was <anon type=""place"" /> fair yeah",4,50_plus,anon type place fair yeah,50-plus,5
+S0013,F,['no info'],SP5U,189,someone might've took a photograph,6,50_plus,someone might took photograph,50-plus,4
+S0012,M,['no info'],SP5U,190,"what? at <anon type=""place"" /> fair?",6,50_plus,anon type place fair,50-plus,4
+S0013,F,['no info'],SP5U,191,yeah mm you never know what you find on computer now do you?,14,50_plus,yeah mm never know find computer,50-plus,6
+S0013,F,['no info'],SP5U,193,mm,1,50_plus,mm,50-plus,1
+S0012,M,['no info'],SP5U,194,but that was one of the best fairs we ever went to weren't it?,16,50_plus,one best fairs ever went,50-plus,5
+S0013,F,['no info'],SP5U,195,it was lovely yeah,4,50_plus,lovely yeah,50-plus,2
+S0012,M,['no info'],SP5U,196,and we only had to <trunc>dre</trunc>dress up and get in for nothing,12,50_plus,trunc dre trunc dress get nothing,50-plus,6
+S0013,F,['no info'],SP5U,197,get in for free mm mm,6,50_plus,get free mm mm,50-plus,4
+S0012,M,['no info'],SP5U,198,medieval we were weren't we?,7,50_plus,medieval,50-plus,1
+S0013,F,['no info'],SP5U,199,"yeah <pause dur=""short"" /> that was easy for us cos I <unclear />",9,50_plus,yeah pause dur short easy us cos unclear,50-plus,8
+S0012,M,['no info'],SP5U,200,that was easy for us cos we look,8,50_plus,easy us cos look,50-plus,4
+S0013,F,['no info'],SP5U,201,always wore a long dress anyway,6,50_plus,always wore long dress anyway,50-plus,5
+S0012,M,['no info'],SP5U,202,"yeah <vocal desc=""laugh"" />",1,50_plus,yeah vocal desc laugh,50-plus,4
+S0013,F,['no info'],SP5U,203,start off alright,3,50_plus,start alright,50-plus,2
+S0012,M,['no info'],SP5U,204,"and I wore <trunc>t</trunc> them type of things anyway <pause dur=""short"" /> and all I had to do was tie my",17,50_plus,wore trunc trunc type things anyway pause dur short tie,50-plus,10
+S0013,F,['no info'],SP5U,205,mm,1,50_plus,mm,50-plus,1
+S0012,M,['no info'],SP5U,206,"the bottom of my trousers up with baler twine <vocal desc=""laugh"" />",9,50_plus,bottom trousers baler twine vocal desc laugh,50-plus,7
+S0013,F,['no info'],SP5U,207,doesn't take much really does it? to,9,50_plus,take much really,50-plus,3
+S0012,M,['no info'],SP5U,208,"<vocal desc=""laugh"" /> <pause dur=""short"" /> yeah",1,50_plus,vocal desc laugh pause dur short yeah,50-plus,7
+S0013,F,['no info'],SP5U,209,yeah,1,50_plus,yeah,50-plus,1
+S0012,M,['no info'],SP5U,210,and have a <trunc>s</trunc>sort of a smock on didn't we? and a funny hat,16,50_plus,trunc trunc sort smock funny hat,50-plus,6
+S0013,F,['no info'],SP5U,211,"yeah <pause dur=""short"" /> yeah they were good",5,50_plus,yeah pause dur short yeah good,50-plus,6
+S0012,M,['no info'],SP5U,212,but that got too big and they couldn't control it and then,13,50_plus,got big control,50-plus,3
+S0013,F,['no info'],SP5U,213,yeah,1,50_plus,yeah,50-plus,1
+S0012,M,['no info'],SP5U,214,"of course you got insurance and everything to come up with <pause dur=""short"" /> and now health and safety and all that business",20,50_plus,course got insurance everything come pause dur short health safety business,50-plus,11
+S0013,F,['no info'],SP5U,215,mm,1,50_plus,mm,50-plus,1
+S0012,M,['no info'],SP5U,216,"just don't <trunc>al</trunc>don't allow you well they allow you to do it <pause dur=""short"" /> but it costs far too much money for insurances",23,50_plus,trunc al trunc allow well allow pause dur short costs far much money insurances,50-plus,14
+S0013,F,['no info'],SP5U,217,yeah,1,50_plus,yeah,50-plus,1
+S0012,M,['no info'],SP5U,218,that's why the travelling fair don't go about any more do it? not much,17,50_plus,travelling fair go much,50-plus,4
+S0013,F,['no info'],SP5U,219,no you do see them though don't you?,10,50_plus,see though,50-plus,2
+S0012,M,['no info'],SP5U,220,you see em occasionally,4,50_plus,see em occasionally,50-plus,3
+S0013,F,['no info'],SP5U,221,erm more than er,4,50_plus,erm er,50-plus,2
+S0012,M,['no info'],SP5U,222,yeah but the <trunc>sm</trunc> just the smaller ones,7,50_plus,yeah trunc sm trunc smaller ones,50-plus,6
+S0013,F,['no info'],SP5U,223,small,1,50_plus,small,50-plus,1
+S0012,M,['no info'],SP5U,224,<trunc>w</trunc>,0,50_plus,trunc w trunc,50-plus,3
+S0013,F,['no info'],SP5U,225,yeah,1,50_plus,yeah,50-plus,1
+S0012,M,['no info'],SP5U,226,where'd we see one when we were er?,10,50_plus,see one er,50-plus,3
+S0013,F,['no info'],SP5U,227,<unclear /> all over the place really,6,50_plus,unclear place really,50-plus,3
+S0012,M,['no info'],SP5U,228,"just er roundabouts I mean we <pause dur=""short"" /> we saw it from <trunc>w</trunc>we were walking weren't we?",17,50_plus,er roundabouts mean pause dur short saw trunc w trunc walking,50-plus,11
+S0013,F,['no info'],SP5U,229,mm,1,50_plus,mm,50-plus,1
+S0012,M,['no info'],SP5U,230,and we saw it down in a valley somewhere,9,50_plus,saw valley somewhere,50-plus,3
+S0013,F,['no info'],SP5U,231,was it on holiday?,5,50_plus,holiday,50-plus,1
+S0012,M,['no info'],SP5U,232,"it was when we we were <pause dur=""short"" /> we <trunc>w</trunc>",7,50_plus,pause dur short trunc w trunc,50-plus,6
+S0013,F,['no info'],SP5U,233,yeah,1,50_plus,yeah,50-plus,1
+S0012,M,['no info'],SP5U,234,"we weren't on holiday <pause dur=""short"" /> we don't have holidays",10,50_plus,holiday pause dur short holidays,50-plus,5
+S0013,F,['no info'],SP5U,235,well we don't really have holidays,7,50_plus,well really holidays,50-plus,3
+S0012,M,['no info'],SP5U,236,working holidays yeah,3,50_plus,working holidays yeah,50-plus,3
+S0013,F,['no info'],SP5U,237,"<vocal desc=""laugh"" /> <pause dur=""short"" /> yeah",1,50_plus,vocal desc laugh pause dur short yeah,50-plus,7
+S0012,M,['no info'],SP5U,238,yeah that's er that was a lovely one that was but we we didn't did we walk down to see it? cos I don't think we did did we?,34,50_plus,yeah er lovely one walk see cos think,50-plus,8
+S0013,F,['no info'],SP5U,239,"no I don't think so <pause dur=""short"" /> we don't like to get sucked in really do we? <vocal desc=""laugh"" />",18,50_plus,think pause dur short like get sucked really vocal desc laugh,50-plus,11
+S0012,M,['no info'],SP5U,240,"oh like roll up roll up <pause dur=""short"" /> have a go at this",11,50_plus,oh like roll roll pause dur short go,50-plus,8
+S0013,F,['no info'],SP5U,241,"<vocal desc=""laugh"" />",0,50_plus,vocal desc laugh,50-plus,3
+S0012,M,['no info'],SP5U,242,have a go at that,5,50_plus,go,50-plus,1
+S0013,F,['no info'],SP5U,243,"yeah <pause dur=""short"" /> we're a bit old for rides now",9,50_plus,yeah pause dur short bit old rides,50-plus,7
+S0012,M,['no info'],SP5U,244,you wouldn't catch me going on a ride,9,50_plus,catch going ride,50-plus,3
+S0013,F,['no info'],SP5U,245,er,1,50_plus,er,50-plus,1
+S0012,M,['no info'],SP5U,246,I did used to love the helter-skelter though,8,50_plus,used love helter skelter though,50-plus,5
+S0013,F,['no info'],SP5U,247,yeah,1,50_plus,yeah,50-plus,1
+S0012,M,['no info'],SP5U,248,helter-skelter was really good weren't it? used to come down on them er hessian mats didn't you?,21,50_plus,helter skelter really good used come er hessian mats,50-plus,9
+S0013,F,['no info'],SP5U,249,mm,1,50_plus,mm,50-plus,1
+S0012,M,['no info'],SP5U,250,they were hessian mats weren't they? the,9,50_plus,hessian mats,50-plus,2
+S0013,F,['no info'],SP5U,251,yes they were quite rough,5,50_plus,yes quite rough,50-plus,3
+S0012,M,['no info'],SP5U,252,"yeah <pause dur=""short"" /> they were quite rough <pause dur=""short"" /> and when you were wearing short trousers",12,50_plus,yeah pause dur short quite rough pause dur short wearing short trousers,50-plus,12
+S0013,F,['no info'],SP5U,253,doormats,1,50_plus,doormats,50-plus,1
+S0012,M,['no info'],SP5U,254,yeah they were like doormats weren't they?,9,50_plus,yeah like doormats,50-plus,3
+S0013,F,['no info'],SP5U,255,"<vocal desc=""laugh"" />",0,50_plus,vocal desc laugh,50-plus,3
+S0012,M,['no info'],SP5U,256,"oh <pause dur=""short"" /> yeah <pause dur=""short"" /> and you used to get sort of burns as you went round <vocal desc=""laugh"" /> you went",16,50_plus,oh pause dur short yeah pause dur short used get sort burns went round vocal desc laugh went,50-plus,18
+S0013,F,['no info'],SP5U,257,mm,1,50_plus,mm,50-plus,1
+S0012,M,['no info'],SP5U,258,on your knees didn't you?,7,50_plus,knees,50-plus,1
+S0013,F,['no info'],SP5U,259,I suppose that's why they had to be thick hessian ones didn't they? cos er,18,50_plus,suppose thick hessian ones cos er,50-plus,6
+S0012,M,['no info'],SP5U,260,yeah,1,50_plus,yeah,50-plus,1
+S0013,F,['no info'],SP5U,261,the speed you come down,5,50_plus,speed come,50-plus,2
+S0012,M,['no info'],SP5U,262,"that <trunc>w</trunc>that were great fun though <pause dur=""short"" /> great fun",8,50_plus,trunc w trunc great fun though pause dur short great fun,50-plus,11
+S0013,F,['no info'],SP5U,263,"yeah <pause dur=""long"" /> yeah there were lots of fairs when we were young er you had the swing boats and the",19,50_plus,yeah pause dur long yeah lots fairs young er swing boats,50-plus,11
+S0012,M,['no info'],SP5U,264,oh they were good,4,50_plus,oh good,50-plus,2
+S0013,F,['no info'],SP5U,265,things as well they were good,6,50_plus,things well good,50-plus,3
+S0012,M,['no info'],SP5U,266,they were good,3,50_plus,good,50-plus,1
+S0012,M,['no info'],SP5U,268,yeah,1,50_plus,yeah,50-plus,1
+S0013,F,['no info'],SP5U,269,pulled them,2,50_plus,pulled,50-plus,1
+S0012,M,['no info'],SP5U,270,just pulled the rope didn't you?,8,50_plus,pulled rope,50-plus,2
+S0013,F,['no info'],SP5U,271,you had control didn't you? really,8,50_plus,control really,50-plus,2
+S0012,M,['no info'],SP5U,272,yeah,1,50_plus,yeah,50-plus,1
+S0013,F,['no info'],SP5U,273,yeah <unclear />,2,50_plus,yeah unclear,50-plus,2
+S0012,M,['no info'],SP5U,274,"those erm <pause dur=""short"" /> what were they called? that them ones that used to go spinning round and and just the they used to",23,50_plus,erm pause dur short called ones used go spinning round used,50-plus,11
+S0013,F,['no info'],SP5U,275,the whip?,3,50_plus,whip,50-plus,1
+S0012,M,['no info'],SP5U,276,the whip yeah,3,50_plus,whip yeah,50-plus,2
+S0013,F,['no info'],SP5U,277,"I didn't like that <pause dur=""short"" /> oh <pause dur=""short"" /> strange noises <pause dur=""short"" /> <vocal desc=""laugh"" />",8,50_plus,like pause dur short oh pause dur short strange noises pause dur short vocal desc laugh,50-plus,16
+S0012,M,['no info'],SP5U,278,that's now switched itself on ain't it?,10,50_plus,switched,50-plus,1
+S0013,F,['no info'],SP5U,279,"yeah <pause dur=""short"" /> video recorder <pause dur=""short"" /> switched on",5,50_plus,yeah pause dur short video recorder pause dur short switched,50-plus,10
+S0012,M,['no info'],SP5U,280,yeah,1,50_plus,yeah,50-plus,1
+S0013,F,['no info'],SP5U,281,yeah,1,50_plus,yeah,50-plus,1
+S0012,M,['no info'],SP5U,282,what are you recording again? not Alan Titchmarsh again?,11,50_plus,recording alan titchmarsh,50-plus,3
+S0013,F,['no info'],SP5U,283,I think so,3,50_plus,think,50-plus,1
+S0012,M,['no info'],SP5U,284,oh my goodness what a waste of time that is,10,50_plus,oh goodness waste time,50-plus,4
+S0013,F,['no info'],SP5U,285,"<unclear>ha ha</unclear> <pause dur=""short"" /> no there's some good good articles I",8,50_plus,unclear ha ha unclear pause dur short good good articles,50-plus,10
+S0012,M,['no info'],SP5U,286,yeah er,2,50_plus,yeah er,50-plus,2
+S0013,F,['no info'],SP5U,287,I skim through the rest,5,50_plus,skim rest,50-plus,2
+S0012,M,['no info'],SP5U,288,about <trunc>thr</trunc>three seconds of good <trunc>ar</trunc>articles and the rest is a load of rubbish,14,50_plus,trunc thr trunc three seconds good trunc ar trunc articles rest load rubbish,50-plus,13
+S0013,F,['no info'],SP5U,289,no there have been some good ones,7,50_plus,good ones,50-plus,2
+S0012,M,['no info'],SP5U,290,and he think he's wonderful,6,50_plus,think wonderful,50-plus,2
+S0013,F,['no info'],SP5U,291,"well he does <pause dur=""short"" /> yeah <pause dur=""short"" /> <vocal desc=""misc"" /> anyway <pause dur=""short"" /> I was looking forward to this cup of tea I was er I hope you're not gonna be too long <pause dur=""short"" /> I'll have to have a cup of tea if you're <trunc>n</trunc> too long",41,50_plus,well pause dur short yeah pause dur short vocal desc misc anyway pause dur short looking forward cup tea er hope gonna long pause dur short cup tea trunc n trunc long,50-plus,32
+S0012,M,['no info'],SP5U,292,I'm <trunc>ve</trunc> faster than you are when you go shopping,10,50_plus,trunc trunc faster go shopping,50-plus,5
+S0013,F,['no info'],SP5U,293,oh tons,2,50_plus,oh tons,50-plus,2
+S0012,M,['no info'],SP5U,294,that's because you keep looking at <unclear>hats</unclear>,7,50_plus,keep looking unclear hats unclear,50-plus,5
+S0013,F,['no info'],SP5U,295,er,1,50_plus,er,50-plus,1
+UNKMULTI,F,['no info'],SP5U,296,"<vocal desc=""laugh"" />",0,50_plus,vocal desc laugh,50-plus,3
+S0013,F,['no info'],SP5U,297,"that's because I usually have to go to the bank and then <pause dur=""short"" /> <vocal desc=""sigh"" /> oh I don't know <pause dur=""short"" /> other shops",20,50_plus,usually go bank pause dur short vocal desc sigh oh know pause dur short shops,50-plus,15
+S0012,M,['no info'],SP5U,298,no just looking at other shops,6,50_plus,looking shops,50-plus,2
+S0013,F,['no info'],SP5U,299,"no I <trunc>d</trunc> usually go into town as well <pause dur=""short"" /> very rarely I just go to er <trunc>o</trunc>one shop",17,50_plus,trunc trunc usually go town well pause dur short rarely go er trunc trunc one shop,50-plus,16
+S0012,M,['no info'],SP5U,300,I go in get what we want and come home,10,50_plus,go get want come home,50-plus,5
+S0013,F,['no info'],SP5U,301,that's really nice when you just go one shop isn't it?,14,50_plus,really nice go one shop,50-plus,5
+S0012,M,['no info'],SP5U,302,you go in,3,50_plus,go,50-plus,1
+S0013,F,['no info'],SP5U,303,<unclear>very</unclear>,0,50_plus,unclear unclear,50-plus,2
+S0012,M,['no info'],SP5U,304,walk round,2,50_plus,walk round,50-plus,2
+S0013,F,['no info'],SP5U,305,get all the bargains,4,50_plus,get bargains,50-plus,2
+S0012,M,['no info'],SP5U,306,"I go in and get what what's on the list <pause dur=""short"" /> although I did get a lovely bit of meat today that was cheap weren't it?",28,50_plus,go get list pause dur short although get lovely bit meat today cheap,50-plus,13
+S0013,F,['no info'],SP5U,307,mm,1,50_plus,mm,50-plus,1
+S0012,M,['no info'],SP5U,308,lovely bit of pork,4,50_plus,lovely bit pork,50-plus,3
+S0013,F,['no info'],SP5U,309,"I didn't see it actually <pause dur=""short"" /> is that half price for meat?",13,50_plus,see actually pause dur short half price meat,50-plus,8
+S0012,M,['no info'],SP5U,310,"yeah <pause dur=""short"" /> lovely bit of pork",5,50_plus,yeah pause dur short lovely bit pork,50-plus,7
+S0013,F,['no info'],SP5U,311,mm,1,50_plus,mm,50-plus,1
+S0012,M,['no info'],SP5U,312,gotta make some sausages now,6,50_plus,gotta make sausages,50-plus,3
+S0013,F,['no info'],SP5U,313,they don't send us emails any more do they? used to send,14,50_plus,send us emails used send,50-plus,5
+S0013,F,['no info'],SP5U,315,Morrisons,1,50_plus,morrisons,50-plus,1
+S0013,F,['no info'],SP5U,317,haven't sent any for a long time,8,50_plus,sent long time,50-plus,3
+S0013,F,['no info'],SP5U,319,did you unsubscribe?,4,50_plus,unsubscribe,50-plus,1
+S0012,M,['no info'],SP5U,320,no I didn't unsubscribe,5,50_plus,unsubscribe,50-plus,1
+S0013,F,['no info'],SP5U,321,mm,1,50_plus,mm,50-plus,1
+S0012,M,['no info'],SP5U,322,"unless I did it by accident? <pause dur=""long"" /> we have too many emails come through",14,50_plus,unless accident pause dur long many emails come,50-plus,8
+S0012,M,['no info'],SP5U,324,"that drive me up the wall when we switch the computer on and they go <vocal desc=""misc"" />",15,50_plus,drive wall switch computer go vocal desc misc,50-plus,8
+S0013,F,['no info'],SP5U,325,all you seem to do is delete them and then that's all you do on the computer,18,50_plus,seem delete computer,50-plus,3
+S0012,M,['no info'],SP5U,326,yeah,1,50_plus,yeah,50-plus,1
+S0013,F,['no info'],SP5U,327,"deleting emails <pause dur=""short"" /> er not even looking at them <pause dur=""short"" /> it is",10,50_plus,deleting emails pause dur short er even looking pause dur short,50-plus,11
+S0013,F,['no info'],SP5U,329,daft isn't it?,5,50_plus,daft,50-plus,1
+S0012,M,['no info'],SP5U,330,"that is daft <pause dur=""short"" /> it's stupid",6,50_plus,daft pause dur short stupid,50-plus,5
+S0013,F,['no info'],SP5U,331,"mm such a waste of time <pause dur=""short"" /> mm",7,50_plus,mm waste time pause dur short mm,50-plus,7
+S0012,M,['no info'],SP5U,332,"I mean they don't write to you on you know er I'd er I'd just like close friends and relations <pause dur=""short"" /> and that would be it",28,50_plus,mean write know er er like close friends relations pause dur short would,50-plus,13
+S0013,F,['no info'],SP5U,333,and how many of them do we get? none really,11,50_plus,many get none really,50-plus,4
+S0012,M,['no info'],SP5U,334,"but we <trunc>d</trunc>we don't <pause dur=""short"" /> I mean <anon nameType=""m"" type=""name"" /> <anon nameType=""m"" type=""name"" /> don't even write to us now do he?",19,50_plus,trunc trunc pause dur short mean anon nametype type name anon nametype type name even write us,50-plus,17
+S0013,F,['no info'],SP5U,335,yeah we'll have to get in touch some time mm,11,50_plus,yeah get touch time mm,50-plus,5
+S0012,M,['no info'],SP5U,336,we will we haven't seen him for ages it's,11,50_plus,seen ages,50-plus,2
+S0013,F,['no info'],SP5U,337,"have to think up a a good recipe for <pause dur=""short"" /> a a good menu for diabetics we'll have to look up something <pause dur=""short"" /> and go buy that",26,50_plus,think good recipe pause dur short good menu diabetics look something pause dur short go buy,50-plus,16
+S0012,M,['no info'],SP5U,338,"yeah <pause dur=""short"" /> they used to have some wonderful meals didn't they?",12,50_plus,yeah pause dur short used wonderful meals,50-plus,7
+S0013,F,['no info'],SP5U,339,"yeah <pause dur=""short"" /> and then we'll invite them once we know what we're doing <pause dur=""short"" /> otherwise",15,50_plus,yeah pause dur short invite know pause dur short otherwise,50-plus,10
+S0012,M,['no info'],SP5U,340,"well they never they won't come up here <pause dur=""short"" /> I don't think they would",15,50_plus,well never come pause dur short think would,50-plus,8
+S0013,F,['no info'],SP5U,341,"they might do <pause dur=""short"" /> but they gotta see the <trunc>fa</trunc>family when they come this way haven't they? really",20,50_plus,might pause dur short gotta see trunc fa trunc family come way really,50-plus,13
+S0012,M,['no info'],SP5U,342,"they have yeah <pause dur=""short"" /> I'd like to see <anon nameType=""m"" type=""name"" /> and er <anon nameType=""f"" type=""name"" /> come up <pause dur=""short"" /> I'd like",17,50_plus,yeah pause dur short like see anon nametype type name er anon nametype f type name come pause dur short like,50-plus,21
+S0013,F,['no info'],SP5U,343,yeah,1,50_plus,yeah,50-plus,1
+S0012,M,['no info'],SP5U,344,them to come up,4,50_plus,come,50-plus,1
+S0013,F,['no info'],SP5U,345,it would be nice to have them as well,9,50_plus,would nice well,50-plus,3
+S0012,M,['no info'],SP5U,346,yeah,1,50_plus,yeah,50-plus,1
+S0013,F,['no info'],SP5U,347,"well now the evening is gonna draw in er they're gonna get darker <pause dur=""short"" /> we can do that <pause dur=""short"" /> at the moment we got so much to do while it's nice haven't you? still",38,50_plus,well evening gonna draw er gonna get darker pause dur short pause dur short moment got much nice still,50-plus,19
+S0012,M,['no info'],SP5U,348,"the problem is when evenings are drawing in and you get darker and darker and <pause dur=""short"" /> and that get awful <pause dur=""short"" /> you just don't want to go out <pause dur=""short"" /> people don't want to go out",34,50_plus,problem evenings drawing get darker darker pause dur short get awful pause dur short want go pause dur short people want go,50-plus,22
+S0012,M,['no info'],SP5U,350,they want to just sit round a fire and be comfortable and that's it,15,50_plus,want sit round fire comfortable,50-plus,5
+S0013,F,['no info'],SP5U,351,you're right,3,50_plus,right,50-plus,1
+S0012,M,['no info'],SP5U,352,"and going out in the winter <pause dur=""short"" /> scraping the frost off your windscreen when you gotta go home",18,50_plus,going winter pause dur short scraping frost windscreen gotta go home,50-plus,11
+S0013,F,['no info'],SP5U,353,"mm <pause dur=""short"" /> yes",2,50_plus,mm pause dur short yes,50-plus,5
+S0012,M,['no info'],SP5U,354,that's not good fun is it?,8,50_plus,good fun,50-plus,2
+S0013,F,['no info'],SP5U,355,"not so fun <pause dur=""short"" /> no",4,50_plus,fun pause dur short,50-plus,4
+UNKMULTI,F,['no info'],SP5U,356,"<vocal desc=""laugh"" />",0,50_plus,vocal desc laugh,50-plus,3
+S0012,M,['no info'],SP5U,357,that probably used to be when we were younger but that's not good fun now,16,50_plus,probably used younger good fun,50-plus,5
+S0013,F,['no info'],SP5U,358,mm,1,50_plus,mm,50-plus,1
+S0012,M,['no info'],SP5U,359,starting the motor up a quarter an hour before you gotta go home so it get warm,18,50_plus,starting motor quarter hour gotta go home get warm,50-plus,9
+S0013,F,['no info'],SP5U,360,mm don't think we've ever done that,9,50_plus,mm think ever done,50-plus,4
+S0013,F,['no info'],SP5U,362,mm,1,50_plus,mm,50-plus,1
+S0012,M,['no info'],SP5U,363,"god I remember when I used to have to go to work <pause dur=""short"" /> <vocal desc=""laugh"" /> <pause dur=""short"" /> <trunc>s</trunc> you had",14,50_plus,god remember used go work pause dur short vocal desc laugh pause dur short trunc trunc,50-plus,16
+S0013,F,['no info'],SP5U,364,such a long time ago,5,50_plus,long time ago,50-plus,3
+S0012,M,['no info'],SP5U,365,you had to <trunc>s</trunc> get up half an hour earlier to do the car,13,50_plus,trunc trunc get half hour earlier car,50-plus,7
+S0013,F,['no info'],SP5U,366,mm,1,50_plus,mm,50-plus,1
+S0012,M,['no info'],SP5U,367,"cos I <trunc>ha</trunc> <trunc>th</trunc> didn't have a garage I had to <trunc>w</trunc> be outside <pause dur=""short"" /> ridiculous really",14,50_plus,cos trunc ha trunc trunc th trunc garage trunc w trunc outside pause dur short ridiculous really,50-plus,17
+S0013,F,['no info'],SP5U,368,thinking about it,3,50_plus,thinking,50-plus,1
+S0012,M,['no info'],SP5U,369,huh?,2,50_plus,huh,50-plus,1
+S0013,F,['no info'],SP5U,370,that wasn't for very long was it?,9,50_plus,long,50-plus,1
+S0012,M,['no info'],SP5U,371,no that weren't for long no,7,50_plus,long,50-plus,1
+S0013,F,['no info'],SP5U,372,<unclear>seven</unclear> years really,2,50_plus,unclear seven unclear years really,50-plus,5
+S0012,M,['no info'],SP5U,373,"no <pause dur=""short"" /> no <pause dur=""short"" /> but when we used to live up <anon type=""place"" /> used to have it out there <pause dur=""short"" /> and then decided that I'd keep it down me mum's old house",30,50_plus,pause dur short pause dur short used live anon type place used pause dur short decided keep mum old house,50-plus,20
+S0012,M,['no info'],SP5U,375,"and that er <vocal desc=""laugh"" />",3,50_plus,er vocal desc laugh,50-plus,4
+S0013,F,['no info'],SP5U,376,sixteen years fifteen years sixteen years,6,50_plus,sixteen years fifteen years sixteen years,50-plus,6
+S0012,M,['no info'],SP5U,377,when? when we used to have a car outside?,11,50_plus,used car outside,50-plus,3
+S0013,F,['no info'],SP5U,378,"no when we <trunc>t</trunc> actually <vocal desc=""laugh"" />",4,50_plus,trunc trunc actually vocal desc laugh,50-plus,6
+S0012,M,['no info'],SP5U,379,huh?,2,50_plus,huh,50-plus,1
+S0013,F,['no info'],SP5U,380,"before we <pause dur=""short"" /> worked on our own",6,50_plus,pause dur short worked,50-plus,4
+S0012,M,['no info'],SP5U,381,yeah,1,50_plus,yeah,50-plus,1
+S0013,F,['no info'],SP5U,382,we were free to do,5,50_plus,free,50-plus,1
+S0012,M,['no info'],SP5U,383,but when when we had when we had our other <trunc>s</trunc> when we had the the van we used to have to keep that outside before we and that used to get,31,50_plus,trunc trunc van used keep outside used get,50-plus,8
+S0013,F,['no info'],SP5U,384,oh yes I know but,5,50_plus,oh yes know,50-plus,3
+S0012,M,['no info'],SP5U,385,frozen up in the winter,5,50_plus,frozen winter,50-plus,2
+S0013,F,['no info'],SP5U,386,we were more flexible with you said getting up first thing in the morning and,15,50_plus,flexible said getting first thing morning,50-plus,6
+S0012,M,['no info'],SP5U,387,oh yeah,2,50_plus,oh yeah,50-plus,2
+S0013,F,['no info'],SP5U,388,didn't have to do that really did we? not have to,13,50_plus,really,50-plus,1
+S0012,M,['no info'],SP5U,389,"I did to go to work <pause dur=""short"" /> I used to go to work you know?",15,50_plus,go work pause dur short used go work know,50-plus,9
+S0013,F,['no info'],SP5U,390,not not for that long,5,50_plus,long,50-plus,1
+S0012,M,['no info'],SP5U,391,I did go to work for quite a while in my,11,50_plus,go work quite,50-plus,3
+S0013,F,['no info'],SP5U,392,mm,1,50_plus,mm,50-plus,1
+S0012,M,['no info'],SP5U,393,that in that car,4,50_plus,car,50-plus,1
+S0013,F,['no info'],SP5U,394,<unclear />,1,50_plus,unclear,50-plus,1
+S0012,M,['no info'],SP5U,395,I got it when I was seventeen,7,50_plus,got seventeen,50-plus,2
+S0013,F,['no info'],SP5U,396,<unclear>mm alright then</unclear>,0,50_plus,unclear mm alright unclear,50-plus,4
+S0012,M,['no info'],SP5U,397,nineteen forty-eight Ford Anglia,4,50_plus,nineteen forty eight ford anglia,50-plus,5
+S0013,F,['no info'],SP5U,398,"<vocal desc=""laugh"" /> I never saw that",4,50_plus,vocal desc laugh never saw,50-plus,5
+S0012,M,['no info'],SP5U,399,you never saw it no,5,50_plus,never saw,50-plus,2
+S0013,F,['no info'],SP5U,400,"no <pause dur=""short"" /> no",2,50_plus,pause dur short,50-plus,3
+S0012,M,['no info'],SP5U,401,"it was a nineteen forty-eight Ford Anglia which my grandad left <pause dur=""short"" /> and I got it <pause dur=""short"" /> three gears <pause dur=""short"" /> top speed of forty-five <pause dur=""short"" /> and still only done thirty miles to the gallon",30,50_plus,nineteen forty eight ford anglia grandad left pause dur short got pause dur short three gears pause dur short top speed forty five pause dur short still done thirty miles gallon,50-plus,31
+S0013,F,['no info'],SP5U,402,mm,1,50_plus,mm,50-plus,1
+S0012,M,['no info'],SP5U,403,"now they do top speeds of about a hundred and twenty and they can do about sixty mile to the gallon <pause dur=""short"" /> weird ain't it?",26,50_plus,top speeds hundred twenty sixty mile gallon pause dur short weird,50-plus,11
+S0013,F,['no info'],SP5U,404,"mm <pause dur=""long"" /> yeah",2,50_plus,mm pause dur long yeah,50-plus,5
+S0012,M,['no info'],SP5U,405,"<vocal desc=""laugh"" /> <pause dur=""short"" /> but that was a little <trunc>f</trunc>four seater car and the most we had in it were eleven people <vocal desc=""laugh"" />",18,50_plus,vocal desc laugh pause dur short little trunc f trunc four seater car eleven people vocal desc laugh,50-plus,18
+S0013,F,['no info'],SP5U,406,eleven?,2,50_plus,eleven,50-plus,1
+S0012,M,['no info'],SP5U,407,"well they didn't all get in the car they had to stand on the running board <pause dur=""short"" /> they used to have running boards",23,50_plus,well get car stand running board pause dur short used running boards,50-plus,12
+S0013,F,['no info'],SP5U,408,"yeah <pause dur=""short"" /> I don't know how you <pause dur=""short"" /> there's only room for three at the back ain't there?",20,50_plus,yeah pause dur short know pause dur short room three back,50-plus,11
+S0012,M,['no info'],SP5U,409,yeah three at the back,5,50_plus,yeah three back,50-plus,3
+S0013,F,['no info'],SP5U,410,or maybe four if you're tiny,7,50_plus,maybe four tiny,50-plus,3
+S0012,M,['no info'],SP5U,411,"mm <pause dur=""short"" /> three at the back two at the front and",10,50_plus,mm pause dur short three back two front,50-plus,8
+S0013,F,['no info'],SP5U,412,cos you never,3,50_plus,cos never,50-plus,2
+S0013,F,['no info'],SP5U,414,didn't have er seatbelts then,6,50_plus,er seatbelts,50-plus,2
+S0012,M,['no info'],SP5U,415,"and we had all these erm Scousers <pause dur=""short"" /> we went <pause dur=""short"" /> for er they they come for a ride with us and <pause dur=""short"" /> we went to go up <anon type=""place"" /> hill which is er a one in four <pause dur=""short"" /> or or they call it one twenty twenty-five percent now don't they? that was a one one in four <pause dur=""short"" /> and we were going up <trunc>f</trunc> <anon type=""place"" /> hill and it was slowing down and slowing down and slowing down <pause dur=""short"" /> and then it stalled <pause dur=""short"" /> cos I was in <pause dur=""short"" /> you had to crash the first gear in because it wouldn't or they weren't er <pause dur=""short"" /> or double declutch they used to call it",106,50_plus,erm scousers pause dur short went pause dur short er come ride us pause dur short went go anon type place hill er one four pause dur short call one twenty twenty five percent one one four pause dur short going trunc f trunc anon type place hill slowing slowing slowing pause dur short stalled pause dur short cos pause dur short crash first gear er pause dur short double declutch used call,50-plus,73
+S0013,F,['no info'],SP5U,416,mm,1,50_plus,mm,50-plus,1
+S0012,M,['no info'],SP5U,417,"and you get it in first er gear and and stall it and then they all had to get out <pause dur=""short"" /> and get off <pause dur=""short"" /> and push me up the hill",29,50_plus,get first er gear stall get pause dur short get pause dur short push hill,50-plus,15
+S0013,F,['no info'],SP5U,418,<unclear>oh right</unclear>,0,50_plus,unclear oh right unclear,50-plus,4
+S0012,M,['no info'],SP5U,419,that was good fun,4,50_plus,good fun,50-plus,2
+S0013,F,['no info'],SP5U,420,"mm <pause dur=""short"" /> you couldn't really have had eleven could you?",11,50_plus,mm pause dur short really eleven could,50-plus,7
+S0012,M,['no info'],SP5U,421,"well we did <pause dur=""short"" /> we were <pause dur=""short"" /> we'd picked them up at the at the camping site <pause dur=""short"" /> we were having fun and boys of seventeen and eighteen just do silly things <pause dur=""short"" /> I had <vocal desc=""laugh"" /> <pause dur=""short"" /> <anon nameType=""m"" type=""name"" /> was standing on the front bumper along with his mate <pause dur=""short"" /> and we had three on the running boards each side <pause dur=""short"" /> and four <trunc>in</trunc>inside four or five inside",60,50_plus,well pause dur short pause dur short picked camping site pause dur short fun boys seventeen eighteen silly things pause dur short vocal desc laugh pause dur short anon nametype type name standing front bumper along mate pause dur short three running boards side pause dur short four trunc trunc inside four five inside,50-plus,54
+S0013,F,['no info'],SP5U,422,"okay <pause dur=""short"" /> oh right <pause dur=""short"" /> mm",4,50_plus,okay pause dur short oh right pause dur short mm,50-plus,10
+S0012,M,['no info'],SP5U,423,"and there was room <trunc>f</trunc> to have some on the back bumper <pause dur=""short"" /> standing on the back bumper",16,50_plus,room trunc f trunc back bumper pause dur short standing back bumper,50-plus,12
+S0013,F,['no info'],SP5U,424,"right <vocal desc=""laugh"" />",1,50_plus,right vocal desc laugh,50-plus,4
+S0012,M,['no info'],SP5U,425,"but that was a stupid thing <pause dur=""short"" /> stupid thing to do",10,50_plus,stupid thing pause dur short stupid thing,50-plus,7
+S0013,F,['no info'],SP5U,426,oh yeah,2,50_plus,oh yeah,50-plus,2
+S0012,M,['no info'],SP5U,427,but there weren't er that was only along this track and <unclear />,13,50_plus,er along track unclear,50-plus,4
+S0013,F,['no info'],SP5U,428,only for a tiny while,5,50_plus,tiny,50-plus,1
+S0012,M,['no info'],SP5U,429,yeah,1,50_plus,yeah,50-plus,1
+S0013,F,['no info'],SP5U,430,yeah,1,50_plus,yeah,50-plus,1
+S0012,M,['no info'],SP5U,431,"now we got a bluebottle flying in the house <pause dur=""short"" /> wonder why they call em bluebottles?",16,50_plus,got bluebottle flying house pause dur short wonder call em bluebottles,50-plus,11
+S0013,F,['no info'],SP5U,432,well they are bluey,4,50_plus,well bluey,50-plus,2
+S0012,M,['no info'],SP5U,433,yeah but nothing like a bottle are they?,9,50_plus,yeah nothing like bottle,50-plus,4
+S0013,F,['no info'],SP5U,434,they're quite beautiful actually aren't they?,9,50_plus,quite beautiful actually,50-plus,3
+S0012,M,['no info'],SP5U,435,well they are when the sun shine on em,9,50_plus,well sun shine em,50-plus,4
+S0013,F,['no info'],SP5U,436,"if you look at them <pause dur=""short"" /> mm <pause dur=""short"" /> but they're horrible noisy things",12,50_plus,look pause dur short mm pause dur short horrible noisy things,50-plus,11
+S0012,M,['no info'],SP5U,437,it won't be for long if we get a fly swatter,12,50_plus,long get fly swatter,50-plus,4
+S0013,F,['no info'],SP5U,438,just <trunc>bu</trunc>buzzing round your head,5,50_plus,trunc bu trunc buzzing round head,50-plus,6
+UNKMULTI,F,['no info'],SP5U,439,"<vocal desc=""laugh"" />",0,50_plus,vocal desc laugh,50-plus,3
+S0013,F,['no info'],SP5U,440,"yeah <pause dur=""short"" /> I think it's the noise people can't stand isn't it really?",16,50_plus,yeah pause dur short think noise people stand really,50-plus,9
+S0012,M,['no info'],SP5U,441,"that is well they they seem to be <pause dur=""short"" /> they don't know where they're <trunc>d</trunc> going do they? just fly around like a lost soul",26,50_plus,well seem pause dur short know trunc trunc going fly around like lost soul,50-plus,14
+S0013,F,['no info'],SP5U,442,yeah,1,50_plus,yeah,50-plus,1
+S0013,F,['no info'],SP5U,444,yeah,1,50_plus,yeah,50-plus,1
+S0012,M,['no info'],SP5U,445,"well they probably are ain't they? probably are <pause dur=""short"" /> that's probably what they are you know lost souls just <trunc>fl</trunc>flying around <vocal desc=""misc"" />",23,50_plus,well probably probably pause dur short probably know lost souls trunc fl trunc flying around vocal desc misc,50-plus,18
+S0013,F,['no info'],SP5U,446,"<vocal desc=""laugh"" />",0,50_plus,vocal desc laugh,50-plus,3
+S0012,M,['no info'],SP5U,447,er?,2,50_plus,er,50-plus,1
+S0013,F,['no info'],SP5U,448,"<vocal desc=""laugh"" />",0,50_plus,vocal desc laugh,50-plus,3
+S0012,M,['no info'],SP5U,449,"and they're just waiting for someone to swat them so they can be where they gotta be <vocal desc=""laugh"" />",19,50_plus,waiting someone swat gotta vocal desc laugh,50-plus,7
+S0013,F,['no info'],SP5U,450,"<vocal desc=""laugh"" /> oh dear <vocal desc=""laugh"" /> <pause dur=""short"" /> mm <pause dur=""long"" />",3,50_plus,vocal desc laugh oh dear vocal desc laugh pause dur short mm pause dur long,50-plus,15
+S0012,M,['no info'],SP5U,451,anyhow that was a good cup of tea but I let mine get cold all this yapping <unclear>you</unclear>,17,50_plus,anyhow good cup tea let mine get cold yapping unclear unclear,50-plus,11
+S0013,F,['no info'],SP5U,452,"<unclear /> yeah <pause dur=""short"" /> <unclear>had</unclear> a nice cup of tea <pause dur=""short"" /> er we're having sausages tonight",13,50_plus,unclear yeah pause dur short unclear unclear nice cup tea pause dur short er sausages tonight,50-plus,16
+S0012,M,['no info'],SP5U,453,"oh wonderful <pause dur=""short"" /> and chips?",5,50_plus,oh wonderful pause dur short chips,50-plus,6
+S0013,F,['no info'],SP5U,454,"sausage <pause dur=""short"" /> no <pause dur=""short"" /> you cos you did some potatoes <pause dur=""short"" /> about three days ago",12,50_plus,sausage pause dur short pause dur short cos potatoes pause dur short three days ago,50-plus,15
+S0012,M,['no info'],SP5U,455,"oh did I? oh yeah <pause dur=""short"" /> yeah",7,50_plus,oh oh yeah pause dur short yeah,50-plus,7
+S0013,F,['no info'],SP5U,456,"so we've got those to finish <trunc>t</trunc> <pause dur=""short"" /> well not finish <pause dur=""short"" /> start",11,50_plus,got finish trunc trunc pause dur short well finish pause dur short start,50-plus,13
+S0012,M,['no info'],SP5U,457,yeah,1,50_plus,yeah,50-plus,1
+S0013,F,['no info'],SP5U,458,erm and that tomato and er sort of <trunc>pum</trunc> that <unclear>Turk's head</unclear> squash,10,50_plus,erm tomato er sort trunc pum trunc unclear turk head unclear squash,50-plus,12
+S0012,M,['no info'],SP5U,459,"yeah <pause dur=""short"" /> I've got er some of that chilli paste",10,50_plus,yeah pause dur short got er chilli paste,50-plus,8
+S0013,F,['no info'],SP5U,460,an onion,2,50_plus,onion,50-plus,1
+S0012,M,['no info'],SP5U,461,er that that er sweet chilli sauce on as well,10,50_plus,er er sweet chilli sauce well,50-plus,6
+S0013,F,['no info'],SP5U,462,it's already in,4,50_plus,already,50-plus,1
+S0012,M,['no info'],SP5U,463,has it? you put it in already?,9,50_plus,put already,50-plus,2
+S0013,F,['no info'],SP5U,464,no er but it's already in a curry sauce isn't it?,14,50_plus,er already curry sauce,50-plus,4
+S0012,M,['no info'],SP5U,465,"yeah <pause dur=""short"" /> that curry sauce <unclear>you</unclear> was lovely",6,50_plus,yeah pause dur short curry sauce unclear unclear lovely,50-plus,9
+S0013,F,['no info'],SP5U,466,I know I know it was quite mild cos it's been watered down by all the tomatoes really,19,50_plus,know know quite mild cos watered tomatoes really,50-plus,8
+S0012,M,['no info'],SP5U,467,<unclear>well it just er lifts</unclear>,0,50_plus,unclear well er lifts unclear,50-plus,5
+S0013,F,['no info'],SP5U,468,just gives it a little bit of <unclear>twang</unclear> don't it?,11,50_plus,gives little bit unclear twang unclear,50-plus,6
+S0012,M,['no info'],SP5U,469,"yeah it did <pause dur=""short"" /> yeah it er gives it a lot of taste",12,50_plus,yeah pause dur short yeah er gives lot taste,50-plus,9
+S0013,F,['no info'],SP5U,470,mm,1,50_plus,mm,50-plus,1
+S0012,M,['no info'],SP5U,471,I hear if you have too much chilli that take away the flavour of everything else that's on it,20,50_plus,hear much chilli take away flavour everything else,50-plus,8
+S0013,F,['no info'],SP5U,472,yeah,1,50_plus,yeah,50-plus,1
+S0012,M,['no info'],SP5U,473,"I mean these people who think to eat raw chillies <vocal desc=""sigh"" /> <pause dur=""short"" /> when we used to sell em this boy used to come in <pause dur=""short"" /> and buy these chillies and stand there and eat them <pause dur=""short"" /> cos he was a man",37,50_plus,mean people think eat raw chillies vocal desc sigh pause dur short used sell em boy used come pause dur short buy chillies stand eat pause dur short cos man,50-plus,30
+S0013,F,['no info'],SP5U,474,"<vocal desc=""laugh"" />",0,50_plus,vocal desc laugh,50-plus,3
+S0012,M,['no info'],SP5U,475,oh what a stupid idiot,5,50_plus,oh stupid idiot,50-plus,3
+S0013,F,['no info'],SP5U,476,yeah,1,50_plus,yeah,50-plus,1
+S0012,M,['no info'],SP5U,477,what is the point?,5,50_plus,point,50-plus,1
+S0013,F,['no info'],SP5U,478,"I wonder what he's doing now he was kind of strange wasn't he? <vocal desc=""laugh"" />",16,50_plus,wonder kind strange vocal desc laugh,50-plus,6
+S0012,M,['no info'],SP5U,479,"yeah <pause dur=""short"" /> yeah he was",4,50_plus,yeah pause dur short yeah,50-plus,5
+S0013,F,['no info'],SP5U,480,mm,1,50_plus,mm,50-plus,1
+S0012,M,['no info'],SP5U,481,he came round here once or twice didn't he?,11,50_plus,came round twice,50-plus,3
+S0013,F,['no info'],SP5U,482,yeah,1,50_plus,yeah,50-plus,1
+S0012,M,['no info'],SP5U,483,"yeah <pause dur=""short"" /> <vocal desc=""laugh"" />",1,50_plus,yeah pause dur short vocal desc laugh,50-plus,7
+S0013,F,['no info'],SP5U,484,not sure why,3,50_plus,sure,50-plus,1
+S0012,M,['no info'],SP5U,485,I'm not sure well we did we did carry on <trunc>se</trunc>selling stuff for a little while didn't we?,21,50_plus,sure well carry trunc se trunc selling stuff little,50-plus,9
+S0013,F,['no info'],SP5U,486,yeah oh did he come buy some stuff?,9,50_plus,yeah oh come buy stuff,50-plus,5
+S0012,M,['no info'],SP5U,487,yeah he come to buy some stuff,7,50_plus,yeah come buy stuff,50-plus,4
+S0013,F,['no info'],SP5U,488,okay,1,50_plus,okay,50-plus,1
+S0012,M,['no info'],SP5U,489,and then <trunc>w</trunc>,2,50_plus,trunc w trunc,50-plus,3
+S0013,F,['no info'],SP5U,490,"<anon nameType=""f"" type=""name"" /> remembers all the brown rice brown <vocal desc=""laugh"" /> brown pasta",9,50_plus,anon nametype f type name remembers brown rice brown vocal desc laugh brown pasta,50-plus,14
+S0012,M,['no info'],SP5U,491,yeah,1,50_plus,yeah,50-plus,1
+S0013,F,['no info'],SP5U,492,and soya milk,3,50_plus,soya milk,50-plus,2
+S0012,M,['no info'],SP5U,493,"yeah she did <pause dur=""short"" /> she used to really look forward <trunc>r</trunc> to it all I mean <pause dur=""short"" /> and then course <anon nameType=""m"" type=""name"" /> used to come out <pause dur=""short"" /> and <vocal desc=""laugh"" /> <trunc>s</trunc> we used to start talking <pause dur=""short"" /> and <anon nameType=""f"" type=""name"" /> had done her shopping and <vocal desc=""laugh"" /> and left <pause dur=""short"" /> me and <anon nameType=""m"" type=""name"" /> yapping away",42,50_plus,yeah pause dur short used really look forward trunc r trunc mean pause dur short course anon nametype type name used come pause dur short vocal desc laugh trunc trunc used start talking pause dur short anon nametype f type name done shopping vocal desc laugh left pause dur short anon nametype type name yapping away,50-plus,56
+S0013,F,['no info'],SP5U,494,right,1,50_plus,right,50-plus,1
+S0012,M,['no info'],SP5U,495,but she used to buy all the stuff as well,10,50_plus,used buy stuff well,50-plus,4
+S0013,F,['no info'],SP5U,496,mm,1,50_plus,mm,50-plus,1
+S0012,M,['no info'],SP5U,497,and I I think it's so strange though that you know she'll remember everything that that I used to do you know,24,50_plus,think strange though know remember everything used know,50-plus,8
+S0013,F,['no info'],SP5U,498,does remember a lot doesn't she?,8,50_plus,remember lot,50-plus,2
+S0012,M,['no info'],SP5U,499,and this is a long while ago now ain't it?,12,50_plus,long ago,50-plus,2
+S0013,F,['no info'],SP5U,500,"yes <pause dur=""short"" /> yeah",2,50_plus,yes pause dur short yeah,50-plus,5
+S0012,M,['no info'],SP5U,501,and er,2,50_plus,er,50-plus,1
+S0013,F,['no info'],SP5U,502,whereas I,2,50_plus,whereas,50-plus,1
+S0012,M,['no info'],SP5U,503,I never realised how much they people appreciated me going round selling stuff,13,50_plus,never realised much people appreciated going round selling stuff,50-plus,9
+S0013,F,['no info'],SP5U,504,mm,1,50_plus,mm,50-plus,1
+S0012,M,['no info'],SP5U,505,because at the time it wasn't the norm to buy all this whole food stuff was it?,19,50_plus,time norm buy whole food stuff,50-plus,6
+S0012,M,['no info'],SP5U,507,"all them years ago <pause dur=""short"" /> and selling organic stuff and whole food that was that was good weren't it?",20,50_plus,years ago pause dur short selling organic stuff whole food good,50-plus,11
+S0013,F,['no info'],SP5U,508,strangely enough people were only just thinking about what they were eating,12,50_plus,strangely enough people thinking eating,50-plus,5
+S0012,M,['no info'],SP5U,509,yeah,1,50_plus,yeah,50-plus,1
+S0012,M,['no info'],SP5U,511,yeah,1,50_plus,yeah,50-plus,1
+S0013,F,['no info'],SP5U,512,just beginning to think,4,50_plus,beginning think,50-plus,2
+S0012,M,['no info'],SP5U,513,yeah that's it yeah,5,50_plus,yeah yeah,50-plus,2
+S0013,F,['no info'],SP5U,514,"that they don't want all these er rubbish foods <pause dur=""short"" /> want to go back to basics <pause dur=""short"" /> it's really funny",20,50_plus,want er rubbish foods pause dur short want go back basics pause dur short really funny,50-plus,16
+S0012,M,['no info'],SP5U,515,they did a they did a thing about er chemical <trunc>foo</trunc> chemical you know stuff that they put on like vegetables to <trunc>s</trunc> to keep the the pests away and stop the,30,50_plus,thing er chemical trunc foo trunc chemical know stuff put like vegetables trunc trunc keep pests away stop,50-plus,18
+S0013,F,['no info'],SP5U,516,yeah,1,50_plus,yeah,50-plus,1
+S0012,M,['no info'],SP5U,517,"fungus and all that sort of stuff <pause dur=""short"" /> they did a a test on them all <pause dur=""short"" /> and that the chemicals you're not supposed to eat after three weeks I think they they they're safe to eat",37,50_plus,fungus sort stuff pause dur short test pause dur short chemicals supposed eat three weeks think safe eat,50-plus,18
+S0013,F,['no info'],SP5U,518,mm,1,50_plus,mm,50-plus,1
+S0012,M,['no info'],SP5U,519,"but once they're safe to eat there's no difference in the organic or the <trunc>ch</trunc> or the chemical <pause dur=""short"" /> you couldn't <pause dur=""short"" /> there was no",25,50_plus,safe eat difference organic trunc ch trunc chemical pause dur short pause dur short,50-plus,14
+S0013,F,['no info'],SP5U,520,really?,2,50_plus,really,50-plus,1
+S0012,M,['no info'],SP5U,521,yeah,1,50_plus,yeah,50-plus,1
+S0013,F,['no info'],SP5U,522,mm,1,50_plus,mm,50-plus,1
+S0012,M,['no info'],SP5U,523,that's what they say,5,50_plus,say,50-plus,1
+S0013,F,['no info'],SP5U,524,yeah,1,50_plus,yeah,50-plus,1
+S0012,M,['no info'],SP5U,525,but er I mean they tell you they tell you a lot of old bull don't they?,19,50_plus,er mean tell tell lot old bull,50-plus,7
+S0013,F,['no info'],SP5U,526,well er that's cos they want you to carry on buying the stuff otherwise,15,50_plus,well er cos want carry buying stuff otherwise,50-plus,8
+S0012,M,['no info'],SP5U,527,yeah,1,50_plus,yeah,50-plus,1
+S0013,F,['no info'],SP5U,528,otherwise er everything would rot wouldn't it?,9,50_plus,otherwise er everything would rot,50-plus,5
+S0012,M,['no info'],SP5U,529,"I see <anon nameType=""m"" type=""name"" /> has stopped selling the ordinary carrots now they're all stock feed carrots now they sell at",20,50_plus,see anon nametype type name stopped selling ordinary carrots stock feed carrots sell,50-plus,13
+S0013,F,['no info'],SP5U,530,"yes <pause dur=""short"" /> they always were <pause dur=""short"" /> but he writes it up now",10,50_plus,yes pause dur short always pause dur short writes,50-plus,9
+S0012,M,['no info'],SP5U,531,he writes it on now yeah,6,50_plus,writes yeah,50-plus,2
+S0013,F,['no info'],SP5U,532,well it's obvious really that they were stock feed you don't buy a whole huge bag full of carrots do you? like sack of potatoes you don't buy a sack of carrots you can't eat them,41,50_plus,well obvious really stock feed buy whole huge bag full carrots like sack potatoes buy sack carrots eat,50-plus,18
+S0012,M,['no info'],SP5U,533,no you can't no we did didn't we? we <trunc>c</trunc> bought em,14,50_plus,trunc c trunc bought em,50-plus,5
+S0013,F,['no info'],SP5U,534,"so <pause dur=""short"" /> well it is obvious",5,50_plus,pause dur short well obvious,50-plus,5
+S0012,M,['no info'],SP5U,535,we bought we bought a sack oh I think it was about twenty-eight pound of carrots,16,50_plus,bought bought sack oh think twenty eight pound carrots,50-plus,9
+S0013,F,['no info'],SP5U,536,and wasted em,3,50_plus,wasted em,50-plus,2
+S0012,M,['no info'],SP5U,537,and most of em went to waste didn't they? they just melt away don't they? and go rotten and go,24,50_plus,em went waste melt away go rotten go,50-plus,8
+S0013,F,['no info'],SP5U,538,yeah,1,50_plus,yeah,50-plus,1
+S0012,M,['no info'],SP5U,539,soft and just go into water don't they?,10,50_plus,soft go water,50-plus,3
+S0013,F,['no info'],SP5U,540,mm,1,50_plus,mm,50-plus,1
+S0012,M,['no info'],SP5U,541,and they stink,3,50_plus,stink,50-plus,1
+S0013,F,['no info'],SP5U,542,"they do <pause dur=""short"" /> horrible <pause dur=""short"" /> potatoes are even worse when they start <unclear>going like water</unclear>",10,50_plus,pause dur short horrible pause dur short potatoes even worse start unclear going like water unclear,50-plus,16
+S0012,M,['no info'],SP5U,543,on er when they got that rot they are yes,10,50_plus,er got rot yes,50-plus,4
+S0013,F,['no info'],SP5U,544,yeah they are,3,50_plus,yeah,50-plus,1
+S0012,M,['no info'],SP5U,545,"and when you when I used to sell potatoes <pause dur=""short"" /> cos er these are the new potatoes you used to sell <pause dur=""short"" /> you used to start off with a <vocal desc=""misc"" /> and as you got to the bottom you <vocal desc=""misc"" /> what's that stink? and as you put your hand in it and you got",51,50_plus,used sell potatoes pause dur short cos er new potatoes used sell pause dur short used start vocal desc misc got bottom vocal desc misc stink put hand got,50-plus,29
+S0013,F,['no info'],SP5U,546,yeah,1,50_plus,yeah,50-plus,1
+S0012,M,['no info'],SP5U,547,all this gunge,3,50_plus,gunge,50-plus,1
+S0013,F,['no info'],SP5U,548,er,1,50_plus,er,50-plus,1
+S0012,M,['no info'],SP5U,549,"ah <pause dur=""short"" /> er",2,50_plus,ah pause dur short er,50-plus,5
+S0013,F,['no info'],SP5U,550,"mm <pause dur=""short"" /> not nice at all <pause dur=""short"" /> right?",7,50_plus,mm pause dur short nice pause dur short right,50-plus,9
+S0012,M,['no info'],SP5U,551,right,1,50_plus,right,50-plus,1
+S0013,F,['no info'],SP5U,552,what shall we do before tea? anything?,9,50_plus,shall tea anything,50-plus,3
+S0012,M,['no info'],SP5U,553,well I'm going in the shed,7,50_plus,well going shed,50-plus,3
+S0013,F,['no info'],SP5U,554,"you're going in the shed? right I'll carry on with a bit <pause dur=""short"" /> well I've got to empty the barrow and er",25,50_plus,going shed right carry bit pause dur short well got empty barrow er,50-plus,13
+S0012,M,['no info'],SP5U,555,yeah okay,2,50_plus,yeah okay,50-plus,2
+S0013,F,['no info'],SP5U,556,okay so <trunc>s</trunc>see you later,5,50_plus,okay trunc trunc see later,50-plus,5

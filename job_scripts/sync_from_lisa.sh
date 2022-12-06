@@ -1,0 +1,3 @@
+#!/bin/bash
+# rsync --inplace --whole-file --progress -ahe --no_links --exclude=".*" --exclude="__pycache__" --exclude="coconuts" --exclude="sdgeode" --exclude="wandb" --update -e ssh dnobbe@login-gpu.lisa.surfsara.nl:/home/dnobbe/oodg-experiments/ /home/daniel/Documents/Central\ Documents/Education/MSc\ AI\ UvA/Thesis/Code/oodg-experiments/
+rsync --inplace --whole-file --progress -ahe ssh --exclude=".*" --exclude="data/" --exclude="coconuts" --exclude="sdgeode" --exclude="wandb" --exclude="__pycache__" --no-links --update dnobbe@login-gpu.lisa.surfsara.nl:/home/dnobbe/oodg-experiments/ /home/daniel/Documents/Central\ Documents/Education/MSc\ AI\ UvA/Thesis/Code/oodg-experiments/
